@@ -1,0 +1,126 @@
+<html>
+<head>
+    <title>Mi Proyecto de Vida</title>
+    <style>
+        /* Estilos */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        /* Encabezado */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Menú desplegable */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+            animation: fadeIn 0.5s;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        /* Secciones */
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+        }
+
+        section:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+
+        /* Animaciones */
+        @keyframes fadeIn {
+            from {opacity: 0;}
+            to {opacity: 1;}
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mi Proyecto de Vida</h1>
+        <div class="dropdown">
+            <span>Menú</span>
+            <div class="dropdown-content">
+                <a href="#vision">Visión</a>
+                <a href="#metas">Metas</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="vision">
+        <h2>Visión</h2>
+        <p>Mi visión a largo plazo es convertirme en un profesional exitoso en el campo de la tecnología, contribuyendo al desarrollo de soluciones innovadoras que mejoren la vida de las personas. Deseo alcanzar un balance entre mi vida laboral y personal, disfrutando de una vida plena y satisfactoria.</p>
+    </section>
+
+    <section id="metas">
+        <h2>Metas</h2>
+        <ul>
+            <li>
+                <h3>Meta 1 - Obtener un título con CampusLands como desarrollador de Software</h3>
+                <p>Detalles adicionales sobre esta meta:</p>
+                <ul>
+                    <li>Completar todos los cursos y proyectos requeridos</li>
+                    <li>Mantener un promedio académico alto</li>
+                    <li>Participar en actividades extracurriculares relacionadas con la tecnología</li>
+                </ul>
+            </li>
+            <li>
+                <h3>Meta 2 - Adquirir experiencia laboral en empresas líderes de la industria tecnológica</h3>
+                <p>Detalles adicionales sobre esta meta:</p>
+                <ul>
+                    <li>Buscar oportunidades de prácticas o pasantías</li>
+                    <li>Construir un portafolio sólido de proyectos</li>
+                    <li>Networking y asistencia a eventos de la industria</li>
+                </ul>
+            </li>
+            <li>
+                <h3>Meta 3 - Desarrollar habilidades en áreas específicas como inteligencia artificial, análisis de datos o desarrollo web</h3>
+                <p>Detalles adicionales sobre esta meta:</p>
+                <ul>
+                    <li>Tomar cursos especializados en el área de interés</li>
+                    <li>Realizar proyectos prácticos y participar en competencias</li>
+                    <li>Mantenerse actualizado con las últimas tendencias y tecnologías</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; Jaime Barrera Sandoval, 2024</p>
+    </footer>
+</body>
+</html>
