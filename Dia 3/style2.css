@@ -1,0 +1,279 @@
+.mesatrabajo{
+    top: 0px;
+    left: 0px;
+    width: 1600px;
+    height: 1200px;
+    background: transparent linear-gradient(180deg, var(--unnamed-color-ffffff) 0%, #E6E6E6 21%, #808080 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(180deg, #FFFFFF 0%, #E6E6E6 21%, #808080 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.fondo{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    width: 1400px;
+    height: 800px;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+.rectangle2{
+    position: absolute;
+    top: 847px;
+    left: 1180px;
+    width: 160px;
+    height: 114px;
+    border-radius: 8px;
+    opacity: 1;
+}
+.rectangle4{
+    position: absolute;
+    top: 799px;
+    left: 595px;
+    width: 260px;
+    height: 58px;
+    border: 1px solid #707070;
+    border-radius: 10px;
+    opacity: 1;
+}
+.comprar{
+    position: absolute;
+    font-family: 'Open Sans', Semibold, sans-serif;
+    top: 917px;
+    left: 1205px;
+    width: 111px;
+    height: 36px;
+    opacity: 1;
+}
+.carrito{
+    position: absolute;
+    top: 252px;
+    left: 1324px;
+    width: 33px;
+    height: 32px;
+    opacity: 1;
+}
+.buscar{
+    position: absolute;
+    top: 252px;
+    left: 1224px;
+    width: 27px;
+    height: 27px;
+    opacity: 1;
+}
+.ver_saldo{
+    font-family:'Open Sans', Regular;
+    font-size: 30px;
+    position: absolute;
+    top: 220px;
+    left: 1072px;
+    width: 132px;
+    height: 41px;
+    opacity: 1;
+}
+.comprar_tarjeta{
+    font-family:'Open Sans', Regular;
+    font-size: 30px;
+    position: absolute;
+    top: 220px;
+    left: 800px;
+    width: 230px;
+    height: 41px;
+    opacity: 1;
+}
+.link-saldo {
+    text-decoration: none;
+    color: #000000;
+}
+.linea1{
+    position: absolute;
+    top: 303px;
+    left: 1090px;
+    width: 84px;
+    height: 0px;
+    border: 2px solid var(--unnamed-color-212020);
+    border: 2px solid #212020;
+    opacity: 1;
+}
+.metrolinea1 {
+    position: absolute;
+    top: 243px;
+    left: 143px;
+    width: 196px;
+    height: 44px;
+}
+
+.metrolinea2 {
+    position: absolute;
+    top: 876px;
+    left: 1195px;
+    width: 129px;
+    height: 29px;
+}
+.metrolinea {
+    position: absolute;
+    top: 303px;
+    left: 459px;
+    width: 576px;
+    height: 324px;
+    opacity: 1;
+}
+.tarjeta {
+    position: absolute;
+    top: 560px;
+    left: 420px;
+    width: 700px;
+    height: 55px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-40)/var(--unnamed-line-spacing-55) var(--unnamed-font-family-open-sans);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal 600 40px/55px Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.recargar{
+    position: absolute;
+    top: 890px;
+    left: 1205px;
+    width: 112px;
+    height: 36px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) 26px/36px var(--unnamed-font-family-open-sans);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal 600 26px/36px Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.saldo {
+    position: absolute;
+    top: 650px;
+    left: 583px;
+    width: 329px;
+    height: 37px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-27)/var(--unnamed-line-spacing-37) var(--unnamed-font-family-open-sans);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal 600 27px/37px Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.saldo1 {
+    position: absolute;
+    top: 710px;
+    left: 639px;
+    width: 200px;
+    height: 37px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-27)/var(--unnamed-line-spacing-37) var(--unnamed-font-family-open-sans);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal 600 27px/37px Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.saldo2 {
+    position: absolute;
+    top: 785px;
+    left: 699px;
+    width: 77px;
+    height: 37px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-27)/var(--unnamed-line-spacing-37) var(--unnamed-font-family-open-sans);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal 600 27px/37px Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 0.5;
+}
+.barra {
+    position: absolute;
+    top: 200px;
+    left: 1390px;
+    width: 110px;
+    height: 800px;
+    border-radius: 0px 8px 8px 0px;
+    opacity: 1;
+}
+.arriba {
+    position: absolute;
+    top: 240px;
+    left: 1433px;
+    width: 24px;
+    height: 14px;
+    opacity: 1;
+}
+.abajo {
+    position: absolute;
+    top: 946px;
+    left: 1433px;
+    width: 24px;
+    height: 14px;
+    opacity: 1;
+}
+.valor {
+    position: absolute;
+    top: 367px;
+    left: 1421px;
+    width: 48px;
+    height: 27px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-20)/var(--unnamed-line-spacing-27) var(--unnamed-font-family-open-sans);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal normal 20px/27px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1
+}
+.menu1 {
+    position: absolute;
+    top: 507px;
+    left: 1417px;
+    width: 57px;
+    height: 27px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-20)/var(--unnamed-line-spacing-27) var(--unnamed-font-family-open-sans);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff80);
+    text-align: left;
+    font: normal normal normal 20px/27px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF80;
+    opacity: 1;
+}
+.menu2 {
+    position: absolute;
+    top: 587px;
+    left: 1417px;
+    width: 57px;
+    height: 27px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-20)/var(--unnamed-line-spacing-27) var(--unnamed-font-family-open-sans);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal normal 20px/27px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.menu3 {
+    position: absolute;
+    top: 667px;
+    left: 1417px;
+    width: 57px;
+    height: 27px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-20)/var(--unnamed-line-spacing-27) var(--unnamed-font-family-open-sans);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff80);
+    text-align: left;
+    font: normal normal normal 20px/27px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF80;
+    opacity: 1;
+}
