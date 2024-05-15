@@ -1,3 +1,11 @@
+@font-face{
+    font-family: regular;
+    src: url(./font/static/OpenSans-Regular.ttf);
+}
+@font-face{
+    font-family: semibold;
+    src: url(./font/static/OpenSans-SemiBold.ttf);
+}
 .mesatrabajo{
     top: 0px;
     left: 0px;
@@ -27,13 +35,16 @@
     opacity: 1;
 }
 .comprar{
+    font-family: semibold;
+    font-size: 26px;
+    font-weight: bold;
     position: absolute;
-    font-family: 'Open Sans', Semibold, sans-serif;
-    top: 917px;
+    top: 885px;
     left: 1205px;
     width: 111px;
     height: 36px;
-    opacity: 1;
+    opacity: 100;
+    color: #000000;
 }
 .carrito{
     position: absolute;
@@ -52,20 +63,20 @@
     opacity: 1;
 }
 .ver_saldo{
-    font-family:'Open Sans', Regular;
+    font-family:regular;
     font-size: 30px;
     position: absolute;
-    top: 220px;
-    left: 1072px;
+    top: 214px;
+    left: 1070px;
     width: 132px;
     height: 41px;
     opacity: 1;
 }
 .comprar_tarjeta{
-    font-family:'Open Sans', Regular;
+    font-family:regular;
     font-size: 30px;
     position: absolute;
-    top: 220px;
+    top: 214px;
     left: 800px;
     width: 230px;
     height: 41px;
@@ -109,20 +120,28 @@
     opacity: 1;
 }
 .saldo {
+    font-family:regular;
+    font-size: 40px;
+    font-weight: bold;
     position: absolute;
-    top: 861px;
+    top: 820px;
     left: 158px;
     width: 716px;
     height: 55px;
-    opacity: 1;
+    opacity: 100;
+    color: #000000;
 }
 .cop {
+    font-family:regular;
+    font-size: 27px;
+    font-weight: bold;
     position: absolute;
-    top: 924px;
+    top: 895px;
     left: 157px;
     width: 139px;
     height: 37px;
-    opacity: 1;
+    opacity: 100;
+    color: #000000;
 }
 .barra {
     position: absolute;
