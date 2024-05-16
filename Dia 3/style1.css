@@ -1,12 +1,14 @@
-@font-face{
+@font-face {
     font-family: regular;
     src: url(./font/static/OpenSans-Regular.ttf);
 }
-@font-face{
+
+@font-face {
     font-family: semibold;
     src: url(./font/static/OpenSans-SemiBold.ttf);
 }
-.mesatrabajo{
+
+.mesatrabajo {
     top: 0px;
     left: 0px;
     width: 1600px;
@@ -16,7 +18,7 @@
     opacity: 1;
 }
 
-.fondo{
+.fondo {
     position: absolute;
     top: 200px;
     left: 100px;
@@ -25,7 +27,8 @@
     border: 1px solid #707070;
     opacity: 1;
 }
-.rectangle2{
+
+.rectangle2 {
     position: absolute;
     top: 847px;
     left: 1180px;
@@ -34,7 +37,8 @@
     border-radius: 8px;
     opacity: 1;
 }
-.comprar{
+
+.comprar {
     font-family: semibold;
     font-size: 26px;
     font-weight: bold;
@@ -46,7 +50,8 @@
     opacity: 100;
     color: #000000;
 }
-.carrito{
+
+.carrito {
     position: absolute;
     top: 252px;
     left: 1324px;
@@ -54,7 +59,8 @@
     height: 32px;
     opacity: 1;
 }
-.buscar{
+
+.buscar {
     position: absolute;
     top: 252px;
     left: 1224px;
@@ -62,8 +68,9 @@
     height: 27px;
     opacity: 1;
 }
-.ver_saldo{
-    font-family:regular;
+
+.ver_saldo {
+    font-family: regular;
     font-size: 30px;
     position: absolute;
     top: 214px;
@@ -72,8 +79,9 @@
     height: 41px;
     opacity: 1;
 }
-.comprar_tarjeta{
-    font-family:regular;
+
+.comprar_tarjeta {
+    font-family: regular;
     font-size: 30px;
     position: absolute;
     top: 214px;
@@ -82,11 +90,13 @@
     height: 41px;
     opacity: 1;
 }
+
 .link-saldo {
     text-decoration: none;
     color: #000000;
 }
-.linea1{
+
+.linea1 {
     position: absolute;
     top: 303px;
     left: 825px;
@@ -96,6 +106,7 @@
     border: 2px solid #212020;
     opacity: 1;
 }
+
 .metrolinea1 {
     position: absolute;
     top: 243px;
@@ -111,6 +122,7 @@
     width: 129px;
     height: 29px;
 }
+
 .metrolinea {
     position: absolute;
     top: 322px;
@@ -119,8 +131,9 @@
     height: 497px;
     opacity: 1;
 }
+
 .saldo {
-    font-family:regular;
+    font-family: regular;
     font-size: 40px;
     font-weight: bold;
     position: absolute;
@@ -131,8 +144,9 @@
     opacity: 100;
     color: #000000;
 }
+
 .cop {
-    font-family:regular;
+    font-family: regular;
     font-size: 27px;
     font-weight: bold;
     position: absolute;
@@ -143,6 +157,7 @@
     opacity: 100;
     color: #000000;
 }
+
 .barra {
     position: absolute;
     top: 200px;
@@ -152,6 +167,7 @@
     border-radius: 0px 8px 8px 0px;
     opacity: 1;
 }
+
 .arriba {
     position: absolute;
     top: 240px;
@@ -160,6 +176,7 @@
     height: 14px;
     opacity: 1;
 }
+
 .abajo {
     position: absolute;
     top: 946px;
@@ -168,6 +185,7 @@
     height: 14px;
     opacity: 1;
 }
+
 .cantidad {
     position: absolute;
     top: 368px;
@@ -176,6 +194,7 @@
     height: 27px;
     opacity: 1;
 }
+
 .menu {
     position: absolute;
     top: 507px;
