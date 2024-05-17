@@ -1,21 +1,393 @@
-mesatrabajo{
-    width: 1917px;
-    height: 4148px;
+@font-face {
+    font-family: ligth;
+    src: url(./amazon/Amazon\ Ember\ Light.ttf);
 }
-.fondo1 {
-    position: absolute;
-    top: 0px;
-    left: 2px;
-    width: 1918px;
+
+@font-face {
+    font-family: Boldd;
+    src: url(./amazon/Amazon\ Ember\ Bold.ttf);
+}
+
+@font-face {
+    font-family: Pro;
+    src: url(./myriad/Myriad\ Pro\ Italic.ttf);
+}
+
+body{
+    width: 1920px;
     height: 4149px;
-    border: 1px solid #707070;
-    opacity: 1;  
+    background-color:  #000000;
 }
-.fondo2 {
+.mesatrabajo {
     position: absolute;
     top: 0px;
     left: 0px;
     width: 1920px;
+    height: 4149px;
+    border-color: #000000;
+}
+
+.fondo1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1918px;
+    height: 4149px;
+    border: 1px solid #000000;
+    opacity: 1;
+}
+
+.fondo2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1920px;
     height: 1080px;
+    opacity: 0.57;
+}
+
+.buscar {
+    position: absolute;
+    top: 37px;
+    left: 63px;
+    width: 36px;
+    height: 36px;
+    opacity: 1;
+}
+
+.log {
+    position: absolute;
+    top: 30px;
+    left: 1695px;
+    width: 205px;
+    height: 54px;
+    opacity: 1
+}
+
+.logtexto {
+    font-family: ligth;
+    position: absolute;
+    font-size: 20px;
+    text-align: left;
+    top: 25px;
+    left: 1773px;
+    width: 50px;
+    opacity: 1;
+}
+
+.prime {
+    position: absolute;
+    top: 227px;
+    left: 682px;
+    width: 556px;
+    height: 313px;
+    opacity: 1;
+}
+
+.your {
+    font-family: Boldd;
+    position: absolute;
+    font-weight: bold;
+    text-align: left;
+    font-size: 60px;
+    color: #FFFFFF;
+    top: 443px;
+    left: 389px;
+    width: 1151px;
+    height: 60px;
+    opacity: 1;
+}
+
+.now {
+    font-family: ligth;
+    position: absolute;
+    font-size: 30px;
+    line-height: 1.2;
+    text-align: center;
+    color: #FFFFFF;
+    top: 570px;
+    left: 380px;
+    width: 1160px;
+    height: 102px;
+    opacity: 1
+}
+
+.sing {
+    position: absolute;
+    top: 755px;
+    left: 730px;
+    width: 458px;
+    height: 104px;
+    border: 1px solid #707070;
+    border-radius: 52px;
+    opacity: 1;
+}
+
+.singtexto {
+    font-family: ligth;
+    position: absolute;
+    font-size: 40px;
+    text-align: center;
+    color: #000000;
+    top: 743px;
+    left: 780px;
+    width: 360px;
+    height: 40px;
+    opacity: 1;
+}
+
+.live {
+    position: absolute;
+    top: 1106px;
+    left: 64px;
+    width: 1792px;
+    height: 567px;
+    opacity: 1;
+}
+
+.azul2 {
+    position: absolute;
+    top: 1717px;
+    left: 64px;
+    width: 1792px;
+    height: 724px;
+    border-radius: 108px;
+    opacity: 1;
+}
+
+.imagen1 {
+    position: absolute;
+    top: 1896px;
+    left: 477px;
+    width: 181px;
+    height: 309px;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.imagen2 {
+    position: absolute;
+    top: 1896px;
+    left: 670px;
+    width: 181px;
+    height: 309px;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.imagen3 {
+    position: absolute;
+    top: 1896px;
+    left: 863px;
+    width: 180px;
+    height: 309px;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.imagen4 {
+    position: absolute;
+    top: 1896px;
+    left: 1055px;
+    width: 181px;
+    height: 309px;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.imagen5 {
+    position: absolute;
+    top: 1896px;
+    left: 1248px;
+    width: 181px;
+    height: 309px;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.dont {
+    font-family: Boldd;
+    position: absolute;
+    font-size: 60px;
+    text-align: left;
+    color: #FFFFFF;
+    top: 1700px;
+    left: 135px;
+    width: 1664px;
+    height: 60px;
+    opacity: 1;
+}
+
+.you {
+    font-family: ligth;
+    position: absolute;
+    font-size: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    top: 2220px;
+    left: 207px;
+    width: 1492px;
+    height: 110px;
+    opacity: 1;
+}
+
+.azul3 {
+    position: absolute;
+    top: 2467px;
+    left: 64px;
+    width: 1792px;
+    height: 567px;
+    border-radius: 108px;
+    opacity: 1;
+}
+
+.equis {
+    position: absolute;
+    top: 2650px;
+    left: 876px;
+    width: 169px;
+    height: 169px;
+    opacity: 1;
+}
+
+.cancel {
+    font-family: Boldd;
+    position: absolute;
+    font-size: 60px;
+    text-align: left;
+    color: #FFFFFF;
+    top: 2470px;
+    left: 560px;
+    width: 800px;
+    height: 60px;
+    opacity: 1;
+}
+
+.if {
+    font-family: ligth;
+    position: absolute;
+    font-size: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    top: 2835px;
+    left: 269px;
+    width: 1382px;
+    height: 88px;
+    opacity: 1;
+}
+
+.com {
+    font-family: ligth;
+    position: absolute;
+    font-size: 125px;
+    text-align: center;
+    color: #FFFFFF;
+    top: 2980px;
+    left: 407px;
+    width: 1118px;
+    height: 125px;
+    opacity: 1;
+}
+
+.the {
+    font-family: ligth;
+    position: absolute;
+    font-size: 45px;
+    text-align: center;
+    color: #FFFFFF;
+    top: 3250px;
+    left: 181px;
+    width: 1544px;
+    height: 99px;
+    opacity: 1;
+}
+
+.mac {
+    position: absolute;
+    top: 3460px;
+    left: 685px;
+    width: 584px;
+    height: 534px;
+    opacity: 1;
+}
+
+.iphone {
+    position: absolute;
+    top: 3632px;
+    left: 386px;
+    width: 256px;
+    height: 219px;
+    opacity: 0.90;
+}
+
+.pc {
+    position: absolute;
+    top: 3610px;
+    left: 1261px;
+    width: 271px;
+    height: 238px;
+    opacity: 0.90;
+}
+
+.flecha1 {
+    position: absolute;
+    top: 3689px;
+    left: 305px;
+    width: 19px;
+    height: 27px;
+    opacity: 1;
+}
+
+.flecha2 {
+    position: absolute;
+    top: 3702px;
+    left: 1575px;
+    width: 18px;
+    height: 26px;
+    transform: rotate(-179deg);
+    opacity: 1;
+}
+
+.power {
+    font-family: Pro;
+    position: absolute;
+    font-size: 20px;
+    text-align: left;
+    color: #FFFFFF;
+    top: 3972px;
+    left: 843px;
+    width: 92px;
+    height: 20px;
     opacity: 0.35;
+}
+
+.firma {
+    position: absolute;
+    top: 3970px;
+    left: 826px;
+    width: 430px;
+    height: 241px;
+    opacity: 0.35;
+}
+
+.priv {
+    position: absolute;
+    top: 4105px;
+    left: 545px;
+    width: 831px;
+    height: 25px;
+    opacity: 0.35;
+}
+
+.autor {
+    font-family: Pro;
+    position: absolute;
+    font-size: 15px;
+    text-align: left;
+    color: #FFFFFF;
+    top: 4115px;
+    left: 5px;
+    width: 831px;
+    height: 25px;
+    opacity: 0.20;
 }
