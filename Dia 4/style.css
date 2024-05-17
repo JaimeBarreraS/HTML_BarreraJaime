@@ -13,17 +13,16 @@
     src: url(./myriad/Myriad\ Pro\ Italic.ttf);
 }
 
-body{
+body {
     width: 1920px;
     height: 4149px;
-    background-color:  #000000;
+    background-color: #000000;
+    margin: 0 auto;
 }
+
 .mesatrabajo {
     position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 1920px;
-    height: 4149px;
+    justify-content: center;
     border-color: #000000;
 }
 
@@ -31,8 +30,8 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    width: 1918px;
-    height: 4149px;
+    width: 100%;
+    height: 100%;
     border: 1px solid #000000;
     opacity: 1;
 }
@@ -43,7 +42,7 @@ body{
     left: 0;
     width: 1920px;
     height: 1080px;
-    opacity: 0.57;
+    opacity: 0.75;
 }
 
 .buscar {
@@ -72,7 +71,7 @@ body{
     top: 25px;
     left: 1773px;
     width: 50px;
-    opacity: 1;
+    opacity: .80;
 }
 
 .prime {
@@ -133,7 +132,7 @@ body{
     left: 780px;
     width: 360px;
     height: 40px;
-    opacity: 1;
+    opacity: 0.80;
 }
 
 .live {
@@ -358,7 +357,7 @@ body{
     left: 843px;
     width: 92px;
     height: 20px;
-    opacity: 0.35;
+    opacity: 0.50;
 }
 
 .firma {
@@ -367,7 +366,7 @@ body{
     left: 826px;
     width: 430px;
     height: 241px;
-    opacity: 0.35;
+    opacity: 0.50;
 }
 
 .priv {
@@ -376,7 +375,7 @@ body{
     left: 545px;
     width: 831px;
     height: 25px;
-    opacity: 0.35;
+    opacity: 0.50;
 }
 
 .autor {
