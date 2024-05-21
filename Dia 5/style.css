@@ -1,0 +1,554 @@
+@font-face {
+    font-family: font;
+    src: url(./font/Cascadia.ttf);
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+    width: 1920px;
+    background-color: #000000;
+}
+:target {
+    scroll-margin-top: 100px;
+}
+.volver {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+.volver:hover {
+    background-color: #555;
+}
+
+/*==========  MENU  =================*/
+.home {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    background-color: rgb(0, 0, 0);
+}
+
+
+.foods {
+    position: absolute;
+    font-family: font;
+    font-size: 70px;
+    text-align: left;
+    color: #ff702a;
+    top: -10px;
+    left: 10px;
+    width: 50px;
+    opacity: 1;
+
+}
+
+.full {
+    position: absolute;
+    font-family: font;
+    font-size: 90px;
+    text-align: left;
+    color: #ff702a;
+    top: 180px;
+    left: 280px;
+    width: 50px;
+    opacity: 1;
+}
+
+.web {
+    position: absolute;
+    font-family: font;
+    font-size: 90px;
+    text-align: left;
+    color: #ff702a;
+    top: 180px;
+    left: 560px;
+    width: 50px;
+    opacity: 1;
+}
+
+.food {
+    position: absolute;
+    font-family: font;
+    font-size: 40px;
+    text-align: left;
+    color: #ffffff;
+    top: 350px;
+    left: 280px;
+    opacity: 1;
+}
+
+.cuadro {
+    position: absolute;
+    background-color: #ff702a;
+    border-radius: 2%;
+    top: 500px;
+    left: 280px;
+    width: 200px;
+    height: 50px;
+    opacity: 1;
+}
+
+.today {
+    position: absolute;
+    font-family: font;
+    font-size: 25px;
+    text-align: center;
+    color: #ffffff;
+    opacity: 1;
+    top: -10px;
+    left: 10px;
+}
+
+.homa {
+    position: absolute;
+    top: 260px;
+    left: 1100px;
+    width: 600px;
+    height: 600px;
+}
+
+.texthome {
+    position: absolute;
+    font-family: font;
+    font-size: 30px;
+    text-align: left;
+    color: #ffffff;
+    top: 60px;
+    left: 1080px;
+    width: 50px;
+    opacity: 1;
+
+}
+
+.link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.textabout {
+    position: absolute;
+    font-family: font;
+    font-size: 30px;
+    text-align: left;
+    color: #ffffff;
+    top: 60px;
+    left: 1230px;
+    width: 50px;
+    opacity: 1;
+
+}
+
+
+.textmenu {
+    position: absolute;
+    font-family: font;
+    font-size: 30px;
+    text-align: left;
+    color: #ffffff;
+    top: 60px;
+    left: 1400px;
+    width: 50px;
+    opacity: 1;
+
+}
+
+.textservicios {
+    position: absolute;
+    font-family: font;
+    font-size: 30px;
+    text-align: left;
+    color: #ffffff;
+    top: 60px;
+    left: 1540px;
+    width: 50px;
+    opacity: 1;
+
+}
+
+.textcontacto {
+    position: absolute;
+    font-family: font;
+    font-size: 30px;
+    text-align: left;
+    color: #ffffff;
+    top: 60px;
+    left: 1730px;
+    width: 50px;
+    opacity: 1;
+
+}
+
+/*==========  ABOUT US  =================*/
+.about {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    background-color: #000000;
+}
+
+.about-us {
+    position: absolute;
+    font-family: font;
+    font-size: 30px;
+    text-align: left;
+    color: #ff702a;
+    top: 300px;
+    left: 1080px;
+    width: 150px;
+    opacity: 1;
+}
+
+.we {
+    position: absolute;
+    font-family: font;
+    font-size: 60px;
+    text-align: left;
+    color: #ffffff;
+    top: 340px;
+    left: 1080px;
+    width: 650px;
+    opacity: 1;
+}
+
+.it {
+    position: absolute;
+    font-family: font;
+    font-size: 25px;
+    text-align: left;
+    color: #ffffff;
+    top: 520px;
+    left: 1080px;
+    width: 650px;
+    opacity: 1;
+}
+
+.cuadr2 {
+    position: absolute;
+    background-color: #ff702a;
+    border-radius: 2%;
+    top: 700px;
+    left: 1080px;
+    width: 200px;
+    height: 50px;
+    opacity: 1;
+}
+
+.learn {
+    position: absolute;
+    font-family: font;
+    font-size: 25px;
+    text-align: center;
+    color: #ffffff;
+    opacity: 1;
+    top: -10px;
+    left: 28px;
+}
+
+.img2 {
+    position: absolute;
+    top: 260px;
+    left: 280px;
+    width: 700px;
+    height: 610px;
+}
+
+/*==========  MENU  =================*/
+.menu {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    background-color: rgb(0, 0, 0);
+}
+
+.food-menu {
+    position: absolute;
+    font-family: font;
+    font-size: 30px;
+    text-align: center;
+    color: #ff702a;
+    top: 55px;
+    left: 850px;
+    width: 200px;
+    opacity: 1;
+}
+
+.fresh {
+    position: absolute;
+    font-family: font;
+    font-size: 60px;
+    text-align: center;
+    color: #ffffff;
+    top: 80px;
+    left: 490px;
+    width: 1000px;
+    opacity: 1;
+}
+
+.cuadro1 {
+    position: absolute;
+    top: 360px;
+    left: 210px;
+    width: 480px;
+    height: 480px;
+
+}
+
+.cuadro2 {
+    position: absolute;
+    top: 360px;
+    left: 720px;
+    width: 480px;
+    height: 480px;
+}
+
+.cuadro3 {
+    position: absolute;
+    top: 360px;
+    left: 1225px;
+    width: 480px;
+    height: 480px;
+}
+
+.imagen1 {
+    position: absolute;
+    top: 460px;
+    left: 360px;
+    width: 180px;
+    height: 180px;
+
+}
+
+.imagen2 {
+    position: absolute;
+    top: 460px;
+    left: 865px;
+    width: 180px;
+    height: 180px;
+}
+
+.imagen3 {
+    position: absolute;
+    top: 460px;
+    left: 1380px;
+    width: 180px;
+    height: 180px;
+}
+
+.cubo1 {
+    position: absolute;
+    top: 365px;
+    left: 588px;
+    width: 100px;
+    height: 100px;
+}
+
+.cubo2 {
+    position: absolute;
+    top: 365px;
+    left: 1098px;
+    width: 100px;
+    height: 100px;
+}
+
+.cubo3 {
+    position: absolute;
+    top: 365px;
+    left: 1605px;
+    width: 100px;
+    height: 100px;
+}
+
+.icon1 {
+    position: absolute;
+    top: 385px;
+    left: 610px;
+    width: 55px;
+    height: 55px;
+}
+
+.icon2 {
+    position: absolute;
+    top: 385px;
+    left: 1121px;
+    width: 55px;
+    height: 55px;
+}
+
+.icon3 {
+    position: absolute;
+    top: 385px;
+    left: 1627px;
+    width: 55px;
+    height: 55px;
+}
+
+.burger1 {
+    position: absolute;
+    font-family: font;
+    font-size: 35px;
+    text-align: center;
+    color: #000000;
+    top: 610px;
+    left: 250px;
+    width: 400px;
+    opacity: 1;
+
+}
+
+.burger2 {
+    position: absolute;
+    font-family: font;
+    font-size: 35px;
+    text-align: center;
+    color: #000000;
+    top: 610px;
+    left: 710px;
+    width: 500px;
+    opacity: 1;
+}
+
+.pack {
+    position: absolute;
+    font-family: font;
+    font-size: 35px;
+    text-align: center;
+    color: #000000;
+    top: 610px;
+    left: 1270px;
+    width: 400px;
+    opacity: 1;
+}
+
+.tasty1 {
+    position: absolute;
+    font-family: font;
+    font-size: 25px;
+    text-align: center;
+    color: #000000;
+    top: 680px;
+    left: 250px;
+    width: 400px;
+    opacity: 1;
+
+}
+
+.tasty2 {
+    position: absolute;
+    font-family: font;
+    font-size: 25px;
+    text-align: center;
+    color: #000000;
+    top: 680px;
+    left: 710px;
+    width: 500px;
+    opacity: 1;
+}
+
+.tasty3 {
+    position: absolute;
+    font-family: font;
+    font-size: 25px;
+    text-align: center;
+    color: #000000;
+    top: 680px;
+    left: 1270px;
+    width: 400px;
+    opacity: 1;
+}
+
+.precio1 {
+    position: absolute;
+    font-family: font;
+    font-size: 25px;
+    text-align: center;
+    color: #ff702a;
+    font-weight: bold;
+    top: 720px;
+    left: 250px;
+    width: 400px;
+    opacity: 1;
+
+}
+
+.precio2 {
+    position: absolute;
+    font-family: font;
+    font-size: 25px;
+    text-align: center;
+    color: #ff702a;
+    font-weight: bold;
+    top: 720px;
+    left: 710px;
+    width: 500px;
+    opacity: 1;
+}
+
+.precio3 {
+    position: absolute;
+    font-family: font;
+    font-size: 25px;
+    text-align: center;
+    color: #ff702a;
+    font-weight: bold;
+    top: 720px;
+    left: 1270px;
+    width: 400px;
+    opacity: 1;
+}
+
+/*==========  SERVICIOS  =================*/
+.servicios {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    background-color: magenta;
+}
+
+.vacio {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    background-color: red;
+}
+
+.contacto {
+    position: relative;
+    width: 1920px;
+    height: 540px;
+    background-color: greenyellow;
+}
+.volver {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+.volver:hover {
+    background-color: #555;
+}
