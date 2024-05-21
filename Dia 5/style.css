@@ -663,11 +663,168 @@ body {
     width: 1700px;
     height: 550px;
 }
+.we-make {
+    position: absolute;
+    font-family: font;
+    font-size: 60px;
+    text-align: center;
+    color: #000000;
+    top: 200px;
+    left: 450px;
+    width: 1000px;
+    opacity: 1;
+}
+.cuadro-learn {
+    position: absolute;
+    background-color: #ff702a;
+    border-radius: 2%;
+    top: 480px;
+    left: 850px;
+    width: 200px;
+    height: 50px;
+    opacity: 1;
+}
+
+.learn-more {
+    position: absolute;
+    font-family: font;
+    font-size: 25px;
+    text-align: center;
+    color: #ffffff;
+    opacity: 1;
+    top: -15px;
+    left: 28px;
+}
 /*==========  CONTACTO  =================*/
 
 .contacto {
     position: relative;
     width: 1920px;
     height: 540px;
-    background-color: greenyellow;
+    background-color: rgb(0, 0, 0);
+}
+.menu-links{
+    position: absolute;
+    font-family: font;
+    font-size: 35px;
+    text-align: left;
+    font-weight: bold;
+    color: #ffffff;
+    top: 100px;
+    left: 280px;
+    width: 1050px;
+    opacity: 1;
+}
+.our-servive{
+    position: absolute;
+    font-family: font;
+    font-size: 35px;
+    text-align: left;
+    font-weight: bold;
+    color: #ffffff;
+    top: 100px;
+    left: 630px;
+    width: 1050px;
+    opacity: 1;
+}
+.information{
+    position: absolute;
+    font-family: font;
+    font-size: 35px;
+    text-align: left;
+    font-weight: bold;
+    color: #ffffff;
+    top: 100px;
+    left: 980px;
+    width: 1050px;
+    opacity: 1;
+}
+.contact-us{
+    position: absolute;
+    font-family: font;
+    font-size: 35px;
+    text-align: left;
+    font-weight: bold;
+    color: #ffffff;
+    top: 100px;
+    left: 1350px;
+    width: 1050px;
+    opacity: 1;
+}
+.menu-text{
+    position: absolute;
+    font-family: font;
+    font-size: 28px;
+    text-align: left;
+    line-height: 1,2;
+    color: #ffffff;
+    top: 200px;
+    left: 280px;
+    width: 1050px;
+    opacity: 1;
+}
+.our-text{
+    position: absolute;
+    font-family: font;
+    font-size: 28px;
+    text-align: left;
+    line-height: 1,2;
+    color: #ffffff;
+    top: 200px;
+    left: 630px;
+    width: 1050px;
+    opacity: 1;
+}
+.information-text{
+    position: absolute;
+    font-family: font;
+    font-size: 28px;
+    text-align: left;
+    line-height: 1,2;
+    color: #ffffff;
+    top: 200px;
+    left: 980px;
+    width: 1050px;
+    opacity: 1;
+}
+.linea1 {
+    position: absolute;
+    top: 170px;
+    left: 265px;
+    width: 120px;
+    height: 50px;
+    opacity: 1;
+}
+.linea2 {
+    position: absolute;
+    top: 170px;
+    left: 620px;
+    width: 120px;
+    height: 50px;
+    opacity: 1;
+}
+.linea3 {
+    position: absolute;
+    top: 170px;
+    left: 969px;
+    width: 120px;
+    height: 50px;
+    opacity: 1;
+}
+.linea4 {
+    position: absolute;
+    top: 170px;
+    left: 1340px;
+    width: 120px;
+    height: 50px;
+    opacity: 1;
+}
+
+.icon{
+    position: absolute;
+    top: 225px;
+    left: 1332px;
+    width: 190px;
+    height: 40px;
+    opacity: 1;
 }
