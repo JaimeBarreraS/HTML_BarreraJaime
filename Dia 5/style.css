@@ -516,9 +516,127 @@ body {
     position: relative;
     width: 1920px;
     height: 1080px;
-    background-color: magenta;
+    background-color: rgb(233, 209, 233);
+}
+.services {
+    position: absolute;
+    font-family: font;
+    font-size: 30px;
+    text-align: center;
+    color: #ff702a;
+    top: 55px;
+    left: 850px;
+    width: 200px;
+    opacity: 1;
+}
+.wepro {
+    position: absolute;
+    font-family: font;
+    font-size: 60px;
+    text-align: center;
+    color: #ffffff;
+    top: 100px;
+    left: 450px;
+    width: 1050px;
+    opacity: 1;
+}
+.s1 {
+    position: absolute;
+    top: 340px;
+    left: 230px;
+    width: 400px;
+    height: 400px;
+
+}
+.s2 {
+    position: absolute;
+    top: 340px;
+    left: 770px;
+    width: 400px;
+    height: 400px;
 }
 
+.s3 {
+    position: absolute;
+    top: 340px;
+    left: 1280px;
+    width: 400px;
+    height: 400px;
+}
+.order {
+    position: absolute;
+    font-family: font;
+    font-size: 35px;
+    text-align: center;
+    color: #ff702a;
+    top: 700px;
+    left: 200px;
+    width: 400px;
+    opacity: 1;
+
+}
+
+.shipping {
+    position: absolute;
+    font-family: font;
+    font-size: 35px;
+    text-align: center;
+    color: #ff702a;
+    top: 700px;
+    left: 710px;
+    width: 500px;
+    opacity: 1;
+}
+
+.dellvered {
+    position: absolute;
+    font-family: font;
+    font-size: 35px;
+    text-align: center;
+    color: #ff702a;
+    top: 700px;
+    left: 1270px;
+    width: 400px;
+    opacity: 1;
+}
+.it1 {
+    position: absolute;
+    font-family: font;
+    font-size: 28px;
+    text-align: center;
+    color: #ffffff;
+    top: 700px;
+    left: 100px;
+    width: 600px;
+    opacity: 1;
+
+}
+
+.it2 {
+    position: absolute;
+    font-family: font;
+    font-size: 28px;
+    text-align: center;
+    color: #ffffff;
+    top: 700px;
+    left: 660px;
+    width: 600px;
+    opacity: 1;
+}
+
+.it3 {
+    position: absolute;
+    font-family: font;
+    font-size: 28px;
+    text-align: center;
+    color: #ffffff;
+    top: 700px;
+    left: 1180px;
+    width: 600px;
+    opacity: 1;
+}
+
+/*==========  VACIO  =================*/
 .vacio {
     position: relative;
     width: 1920px;
