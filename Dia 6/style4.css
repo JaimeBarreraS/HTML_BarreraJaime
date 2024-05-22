@@ -1,0 +1,148 @@
+@font-face{
+    font-family: regular;
+    src: url(./font/MYRIADPRO-REGULAR.OTF);
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 1920px;
+    height: 1080px;
+    margin: auto;
+}
+.container {
+    position: absolute;
+    width: 1920px;
+    height: 1184px;
+    overflow: hidden;
+}
+.fondo{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 1184px;
+    opacity: 0.8;
+}
+.barra-arriba{
+    position: fixed;
+    top: 0px;
+    left: calc(50% - 960px);
+    width: 1920px;
+    height: 174px;
+    opacity: 1;
+    z-index: 1; 
+}
+.cuadro{
+    position: absolute;
+    top: 191px;
+    left: 167px;
+    width: 1545px;
+    height: 782px;
+    border-radius: 50px;
+    opacity: 1;
+}
+.dian{
+    position: absolute;
+    top: 241px;
+    left: 804px;
+    width: 313px;
+    height: 53px;
+    opacity: 1;
+}
+.firma{
+    position: absolute;
+    top: 307px;
+    left: 925px;
+    width: 71px;
+    height: 42px;
+    opacity: 1;
+}
+.tramitar{
+    position: absolute;
+    font-family: regular;
+    font-size: 24px;
+    text-align: center;
+    position: absolute;
+    top: 340px;
+    left: 830px;
+    width: 260px;
+    height: 24px;
+    opacity: 1;
+}
+.para{
+    position: absolute;
+    font-family: regular;
+    font-size: 26px;
+    text-align: center;
+    top: 400px;
+    left: 376px;
+    width: 1168px;
+    height: 64px;
+    opacity: 1;
+}
+.muisca{
+    position: absolute;
+    top: 500px;
+    left: 845px;
+    width: 231px;
+    height: 77px;
+    opacity: 1;
+}
+.numero{
+    position: absolute;
+    font-family: regular;
+    font-size: 21px;
+    text-align: center;
+    top: 558px;
+    left: 569px;
+    width: 208px;
+    height: 21px;
+    opacity: 1;
+}
+.fecha{
+    position: absolute;
+    font-family: regular;
+    font-size: 21px;
+    text-align: center;
+    top: 668px;
+    left: 564px;
+    width: 318px;
+    height: 21px;
+    opacity: 1;
+}
+.cuadro-numero{
+    position: absolute;
+    top: 606px;
+    left: 564px;
+    width: 792px;
+    height: 63px;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+.cuadro-fecha{
+    position: absolute;
+    top: 715px;
+    left: 564px;
+    width: 792px;
+    height: 63px;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+.continuar{
+    position: absolute;
+    top: 845px;
+    left: 789px;
+    width: 300px;
+    height: 76px;
+    opacity: 1;
+}
+.barra-abajo{
+    position: absolute;
+    top: 1005px;
+    left: 0px;
+    width: 1920px;
+    height: 285px;
+    opacity: 1;
+}

@@ -1,0 +1,172 @@
+@font-face{
+    font-family: regular;
+    src: url(./font/MYRIADPRO-REGULAR.OTF);
+}
+@font-face{
+    font-family: ligth;
+    src: url(./font/MyriadPro-Light.otf);
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 1920px;
+    height: 1080px;
+    margin: auto;
+}
+.container {
+    position: absolute;
+    width: 1920px;
+    height: 1254px;
+    overflow: hidden;
+}
+.fondo{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 1254px;
+    opacity: 0.8;
+}
+.barra-arriba{
+    position: fixed;
+    top: 0px;
+    left: calc(50% - 960px);
+    width: 1920px;
+    height: 174px;
+    opacity: 1;
+    z-index: 1; 
+}
+.cuadro{
+    position: absolute;
+    top: 191px;
+    left: 167px;
+    width: 1545px;
+    height: 870px;
+    border-radius: 50px;
+    opacity: 1;
+}
+.dian{
+    position: absolute;
+    top: 241px;
+    left: 804px;
+    width: 313px;
+    height: 53px;
+    opacity: 1;
+}
+.para{
+    position: absolute;
+    font-family: regular;
+    font-size: 26px;
+    line-height: 1.3;
+    text-align: center;
+    top: 302px;
+    left: 567px;
+    width: 790px;
+    height: 64px;
+    opacity: 1;
+}
+.muisca{
+    position: absolute;
+    top: 424px;
+    left: 845px;
+    width: 231px;
+    height: 77px;
+    opacity: 1;
+}
+.text-numero{
+    position: absolute;
+    font-family: regular;
+    font-size: 21px;
+    text-align: center;
+    top: 500px;
+    left: 569px;
+    width: 208px;
+    height: 21px;
+    opacity: 1;
+}
+.numero{
+    position: absolute;
+    top: 548px;
+    left: 564px;
+    width: 792px;
+    height: 63px;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+.text-fecha1{
+    position: absolute;
+    font-family: regular;
+    font-size: 21px;
+    text-align: center;
+    top: 610px;
+    left: 569px;
+    width: 318px;
+    height: 21px;
+    opacity: 1;
+}
+.fecha1{
+    position: absolute;
+    top: 657px;
+    left: 564px;
+    width: 792px;
+    height: 63px;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+.text-fecha2{
+    position: absolute;
+    font-family: regular;
+    font-size: 21px;
+    text-align: center;
+    top: 710px;
+    left: 569px;
+    width: 180px;
+    height: 21px;
+    opacity: 1;
+}
+.fecha2{
+    position: absolute;
+    top: 757px;
+    left: 564px;
+    width: 792px;
+    height: 63px;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+.capchat{
+    position: absolute;
+    top: 853px;
+    left: 752px;
+    width: 401px;
+    height: 113px;
+    opacity: 1;
+}
+.si{
+    position: absolute;
+    font-family: ligth;
+    font-size: 11px;
+    text-align: center;
+    top: 958px;
+    left: 740px;
+    width: 420px;
+    height: 11px;
+    opacity: 1;
+}
+.agendar{
+    position: absolute;
+    top: 996px;
+    left: 873px;
+    width: 166px;
+    height: 42px;
+    opacity: 1;
+}
+.barra-abajo{
+    position: absolute;
+    top: 1080px;
+    left: 0px;
+    width: 1920px;
+    height: 285px;
+    opacity: 1;
+}

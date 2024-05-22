@@ -1,0 +1,223 @@
+@font-face{
+    font-family: regular;
+    src: url(./font/MYRIADPRO-REGULAR.OTF);
+}
+@font-face{
+    font-family: ligth;
+    src: url(./font/MyriadPro-Light.otf);
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 1920px;
+    height: 1080px;
+    margin: auto;
+}
+.container {
+    position: absolute;
+    width: 1920px;
+    height: 1254px;
+    overflow: hidden;
+}
+.fondo{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 1254px;
+    opacity: 0.8;
+}
+.barra-arriba{
+    position: fixed;
+    top: 0px;
+    left: calc(50% - 960px);
+    width: 1920px;
+    height: 174px;
+    opacity: 1;
+    z-index: 1; 
+}
+.cuadro{
+    position: absolute;
+    top: 191px;
+    left: 167px;
+    width: 1545px;
+    height: 870px;
+    border-radius: 50px;
+    opacity: 1;
+}
+.dian{
+    position: absolute;
+    top: 242px;
+    left: 804px;
+    width: 313px;
+    height: 53px;
+    opacity: 1;
+}
+.firma{
+    position: absolute;
+    top: 307px;
+    left: 925px;
+    width: 71px;
+    height: 42px;
+    opacity: 1;
+}
+.tramitar{
+    position: absolute;
+    font-family: regular;
+    font-size: 24px;
+    text-align: center;
+    top: 340px;
+    left: 830px;
+    width: 260px;
+    height: 24px;
+    opacity: 1;
+}
+.text-ingresa{
+    position: absolute;
+    font-family: regular;
+    font-size: 26px;
+    text-align: center;
+    top: 395px;
+    left: 467px;
+    width: 1000px;
+    height: 27px;
+    opacity: 1;
+}
+.text-recuerdo{
+    position: absolute;
+    font-family: ligth;
+    font-size: 15px;
+    text-align: center;
+    top: 445px;
+    left: 787px;
+    width: 364px;
+    opacity: 1;
+}
+.text-debe{
+    position: absolute;
+    font-family: ligth;
+    font-size: 15px;
+    line-height: 1.3;
+    text-align: center;
+    top: 473px;
+    left: 618px;
+    width: 710px;
+    height: 15px;
+    opacity: 1;
+}
+.flecha1{
+    position: absolute;
+    top: 494px;
+    left: 807px;
+    width: 9px;
+    opacity: 1;
+}
+.flecha2{
+    position: absolute;
+    top: 513px;
+    left: 846px;
+    width: 9px;
+    height: 7px;
+    opacity: 1;
+}
+.flecha3{
+    position: absolute;
+    top: 532px;
+    left: 634px;
+    width: 9px;
+    height: 7px;
+    opacity: 1;
+}
+.flecha4{
+    position: absolute;
+    top: 551px;
+    left: 709px;
+    width: 9px;
+    height: 7px;
+    opacity: 1;
+}
+.flecha5{
+    position: absolute;
+    top: 571px;
+    left: 603px;
+    width: 9px;
+    height: 7px;
+    opacity: 1;
+}
+.contraseña{
+    position: absolute;
+    font-family: regular;
+    font-size: 21px;
+    text-align: center;
+    top: 600px;
+    left: 564px;
+    width: 100px;
+    height: 21px;
+    opacity: 1;
+}
+.vuelve{
+    position: absolute;
+    font-family: regular;
+    font-size: 21px;
+    text-align: center;
+    top: 710px;
+    left: 564px;
+    width: 270px;
+    height: 21px;
+    opacity: 1;
+}
+.cuadro2{
+    position: absolute;
+    top: 648px;
+    left: 564px;
+    width: 792px;
+    height: 63px;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+.cuadro3{
+    position: absolute;
+    top: 759px;
+    left: 564px;
+    width: 792px;
+    height: 63px;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+.capchat{
+    position: absolute;
+    top: 833px;
+    left: 760px;
+    width: 401px;
+    height: 113px;
+    opacity: 1;
+}
+.si{
+    position: absolute;
+    font-family: ligth;
+    font-size: 11px;
+    text-align: center;
+    top: 950px;
+    left: 735px;
+    width: 450px;
+    height: 11px;
+    opacity: 1;
+}
+.crear{
+    position: absolute;
+    top: 983px;
+    left: 877px;
+    width: 166px;
+    height: 42px;
+    opacity: 1;
+}
+.barra-abajo{
+    position: absolute;
+    top: 1080px;
+    left: 0px;
+    width: 1920px;
+    height: 285px;
+    opacity: 1;
+}

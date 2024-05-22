@@ -1,0 +1,108 @@
+@font-face{
+    font-family: regular;
+    src: url(./font/MYRIADPRO-REGULAR.OTF);
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 1920px;
+    height: 1080px;
+    margin: auto;
+}
+.container {
+    position: absolute;
+    width: 1920px;
+    height: 1254px;
+    overflow: hidden;
+}
+.fondo{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 1254px;
+    opacity: 0.8;
+}
+.barra-arriba{
+    position: fixed;
+    top: 0px;
+    left: calc(50% - 960px);
+    width: 1920px;
+    height: 174px;
+    opacity: 1;
+    z-index: 1; 
+}
+.cuadro{
+    position: absolute;
+    top: 191px;
+    left: 167px;
+    width: 1545px;
+    height: 870px;
+    border-radius: 50px;
+    opacity: 1;
+}
+.dian{
+    position: absolute;
+    top: 242px;
+    left: 804px;
+    width: 313px;
+    height: 53px;
+    opacity: 1;
+}
+.verde{
+    position: absolute;
+    top: 359px;
+    left: 845px;
+    width: 231px;
+    height: 231px;
+    opacity: 1;
+}
+.solicitud{
+    position: absolute;
+    font-size: 39px;
+    text-align: left;
+    font-family: regular;
+    top: 580px;
+    left: 785px;
+    width: 400px;
+    height: 39px;
+    opacity: 1;
+}
+.felicitaciones{
+    position: absolute;
+    font-size: 35px;
+    text-align: center;
+    line-height: 1.4;
+    font-family: regular;
+    top: 660px;
+    left: 460px;
+    width: 1000px;
+    height: 84px;
+    opacity: 1;
+}
+.muisca{
+    position: absolute;
+    top: 791px;
+    left: 828px;
+    width: 264px;
+    height: 88px;
+    opacity: 1;
+}
+.volver-menu{
+    position: absolute;
+    top: 878px;
+    left: 805px;
+    width: 311px;
+    height: 79px;
+    opacity: 1;
+}
+.barra-abajo{
+    position: absolute;
+    top: 1080px;
+    left: 0px;
+    width: 1920px;
+    height: 285px;
+    opacity: 1;
+}

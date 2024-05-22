@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="56" viewBox="0 0 220 56">
+  <g id="Boton_Consultar" transform="translate(-13 -382)">
+    <g id="Group_2" data-name="Group 2" transform="translate(14 -15)">
+      <g id="Rectangle_10" data-name="Rectangle 10" transform="translate(-1 397)" fill="#157ffb" stroke="#707070" stroke-width="1">
+        <rect width="220" height="56" rx="18" stroke="none"/>
+        <rect x="0.5" y="0.5" width="219" height="55" rx="17.5" fill="none"/>
+      </g>
+      <text id="Tramitar" transform="translate(109 429)" fill="#fff" font-size="19" font-family="MyriadPro-Regular, Myriad Pro"><tspan x="-32" y="0">Tramitar</tspan></text>
+    </g>
+  </g>
+</svg>

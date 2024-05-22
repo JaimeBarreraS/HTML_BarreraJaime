@@ -1,0 +1,7 @@
+<svg id="Boton_Consultar" xmlns="http://www.w3.org/2000/svg" width="300" height="76" viewBox="0 0 300 76">
+  <g id="Rectangle_10" data-name="Rectangle 10" fill="#157ffb" stroke="#707070" stroke-width="1">
+    <rect width="300" height="76" rx="18" stroke="none"/>
+    <rect x="0.5" y="0.5" width="299" height="75" rx="17.5" fill="none"/>
+  </g>
+  <text id="Continuar" transform="translate(150 46)" fill="#fff" font-size="29" font-family="MyriadPro-Regular, Myriad Pro"><tspan x="-60" y="0">Continuar</tspan></text>
+</svg>
