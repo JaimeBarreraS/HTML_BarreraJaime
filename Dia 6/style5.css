@@ -95,6 +95,30 @@ body{
     border: 1px solid #707070;
     opacity: 1;
 }
+input[type=number] {
+    font-family: regular;
+    font-size: 30px;
+}
+input[type=date] {
+    font-family: regular;
+    font-size: 30px;
+}
+input[type=datetime-local] {
+    font-family: regular;
+    font-size: 30px;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background-image: url('./img/Icon\ awesome-calendar-alt.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 50px;
+}
+input[type="datetime-local"]::-webkit-calendar-picker-indicator {
+    background-image: url('./img/Icon\ awesome-calendar-alt.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 50px;
+}
 .text-fecha1{
     position: absolute;
     font-family: regular;
@@ -134,6 +158,15 @@ body{
     height: 63px;
     border: 1px solid #707070;
     opacity: 1;
+}
+.capchat1{
+    position: absolute;
+    top: 878px;
+    left: 790px;
+    width: 50px;
+    height: 50px;
+    opacity: 1;
+    z-index: 1; 
 }
 .capchat{
     position: absolute;

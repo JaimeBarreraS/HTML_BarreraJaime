@@ -90,6 +90,20 @@ body{
     height: 77px;
     opacity: 1;
 }
+input[type=number] {
+    font-family: regular;
+    font-size: 30px;
+}
+input[type=date] {
+    font-family: regular;
+    font-size: 30px;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background-image: url('./img/Icon\ awesome-calendar-alt.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 50px;
+}
 .numero{
     position: absolute;
     font-family: regular;

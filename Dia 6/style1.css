@@ -96,12 +96,19 @@ body{
 }
 input[type=number] {
     font-family: regular;
-    font-size: 21px;
+    font-size: 30px;
 }
 input[type=date] {
     font-family: regular;
-    font-size: 21px;
+    font-size: 30px;
 }
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background-image: url('./img/Icon\ awesome-calendar-alt.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 50px;
+}
+
 .cuadro-numero{
     position: absolute;
     top: 532px;
@@ -130,6 +137,15 @@ input[type=date] {
     height: 63px;
     border: 1px solid #707070;
     opacity: 1;
+}
+.capchat1{
+    position: absolute;
+    top: 775px;
+    left: 788px;
+    width: 50px;
+    height: 50px;
+    opacity: 1;
+    z-index: 1; 
 }
 .capchat{
     position: absolute;
