@@ -86,6 +86,22 @@ body{
     height: 21px;
     opacity: 1;
 }
+.number{
+    position: absolute;
+    top: 532px;
+    left: 564px;
+    width: 792px;
+    height: 63px;
+    opacity: 1;
+}
+input[type=number] {
+    font-family: regular;
+    font-size: 21px;
+}
+input[type=date] {
+    font-family: regular;
+    font-size: 21px;
+}
 .cuadro-numero{
     position: absolute;
     top: 532px;
