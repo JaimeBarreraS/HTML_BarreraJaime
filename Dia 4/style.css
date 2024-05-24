@@ -14,71 +14,77 @@
 }
 
 body {
-    width: 1920px;
-    height: 4149px;
+    width: 100vw;
+    min-height: 100vh;
     background-color: #000000;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .mesatrabajo {
-    position: absolute;
-    justify-content: center;
-    border-color: #000000;
-}
-
-.fondo1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 1;
+    position: relative;
+    max-width: 1920px;
+    max-height: 4149px;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
 .fondo2 {
     position: absolute;
     top: 0;
     left: 0;
-    width: 1920px;
-    height: 1080px;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
     opacity: 0.75;
 }
 
 .buscar {
     position: absolute;
-    top: 37px;
-    left: 63px;
-    width: 36px;
-    height: 36px;
+    top: 2vw; 
+    left: 3vw; 
+    width: 2.5vw; 
+    height: auto; 
+    max-width: 36px; 
+    max-height: 36px; 
     opacity: 1;
 }
 
 .log {
     position: absolute;
-    top: 30px;
-    left: 1695px;
-    width: 205px;
-    height: 54px;
+    top: 1.563vw;
+    left: 88vw;
+    width: 9vw; 
+    height: 3vw;
+    max-width: 205px;
+    max-height: 54px;
     opacity: 1
 }
 
 .logtexto {
     font-family: ligth;
     position: absolute;
-    font-size: 20px;
+    font-size: 1.1vw;
     text-align: left;
-    top: 25px;
-    left: 1773px;
-    width: 50px;
+    top: -0.4vw;
+    left: 3vw;
+    width: 15vw;
+    height: 5;
+    max-width: 50px;
+    max-height: 50px;
     opacity: 0.80;
 }
 
 .prime {
     position: absolute;
-    top: 227px;
-    left: 682px;
-    width: 556px;
-    height: 313px;
+    top: 11.5vw;
+    left: 33vw;
+    width: 36vw;
+    height: auto;
+    max-width: 556px;
+    max-height: 313px;
     opacity: 1;
 }
 
@@ -87,118 +93,138 @@ body {
     position: absolute;
     font-weight: bold;
     text-align: left;
-    font-size: 60px;
+    font-size: 3.1vw;
     color: #FFFFFF;
-    top: 443px;
-    left: 389px;
-    width: 1151px;
-    height: 60px;
+    top: 25vw;
+    left: 20vw;
+    width: 74vw;
+    height: auto;
+    max-width: 1151px;
+    max-height: 60px;
     opacity: 1;
 }
 
 .now {
     font-family: ligth;
     position: absolute;
-    font-size: 30px;
+    font-size: 1.56vw;
     line-height: 1.2;
     text-align: center;
     color: #FFFFFF;
-    top: 570px;
-    left: 380px;
-    width: 1160px;
-    height: 102px;
+    top: 32vw;
+    left: 17vw;
+    width: 65vw;
+    height: auto;
+    max-width: 1160px;
+    max-height: 102px;
     opacity: 1
 }
 
 .sing {
     position: absolute;
-    top: 755px;
-    left: 730px;
-    width: 458px;
-    height: 104px;
-    border: 1px solid #707070;
-    border-radius: 52px;
+    top: 42vw;
+    left: 39vw;
+    width: 20vw;
+    height: 5vw;
+    max-width: 458px;
+    max-height: 104px;
     opacity: 1;
 }
 
 .singtexto {
     font-family: ligth;
     position: absolute;
-    font-size: 40px;
-    text-align: center;
+    font-size: 1.9vw;
+    text-align: left;
     color: #000000;
-    top: 743px;
-    left: 780px;
-    width: 360px;
-    height: 40px;
+    top: -0.6vw;
+    left: 2vw;
+    width: 17vw;
+    height: 5vw;
+    max-width: 360px;
+    max-height: 40px;
     opacity: 0.80;
 }
 
 .live {
     position: absolute;
-    top: 1106px;
-    left: 64px;
-    width: 1792px;
-    height: 567px;
+    top: 55vw;
+    left: 3vw;
+    width: 94.4vw;
+    height: 30vw;
+    max-width: 1792px;
+    max-height: 567px;
     opacity: 1;
 }
 
 .azul2 {
     position: absolute;
-    top: 1717px;
-    left: 64px;
-    width: 1792px;
-    height: 724px;
-    border-radius: 108px;
+    top: 86vw;
+    left: 3vw;
+    width: 94.4vw;
+    height: 38vw;
+    max-width: 1792px;
+    max-height: 724px;
+    border-radius: 1vw;
     opacity: 1;
 }
 
 .imagen1 {
     position: absolute;
-    top: 1896px;
-    left: 477px;
-    width: 181px;
-    height: 309px;
+    top: 9vw;
+    left: 21.7vw;
+    width: 10vw;
+    height: 16vw;
+    max-width: 181px;
+    max-height: 309px;
     border: 1px solid #707070;
     opacity: 1;
 }
 
 .imagen2 {
     position: absolute;
-    top: 1896px;
-    left: 670px;
-    width: 181px;
-    height: 309px;
+    top: 9vw;
+    left: 32.3vw;
+    width: 10vw;
+    height: 16vw;
+    max-width: 181px;
+    max-height: 309px;
     border: 1px solid #707070;
     opacity: 1;
 }
 
 .imagen3 {
     position: absolute;
-    top: 1896px;
-    left: 863px;
-    width: 180px;
-    height: 309px;
+    top: 9vw;
+    left: 43vw;
+    width: 10vw;
+    height: 16vw;
+    max-width: 181px;
+    max-height: 309px;
     border: 1px solid #707070;
     opacity: 1;
 }
 
 .imagen4 {
     position: absolute;
-    top: 1896px;
-    left: 1055px;
-    width: 181px;
-    height: 309px;
+    top: 9vw;
+    left: 53.7vw;
+    width: 10vw;
+    height: 16vw;
+    max-width: 181px;
+    max-height: 309px;
     border: 1px solid #707070;
     opacity: 1;
 }
 
 .imagen5 {
     position: absolute;
-    top: 1896px;
-    left: 1248px;
-    width: 181px;
-    height: 309px;
+    top: 9vw;
+    left: 64.4vw;
+    width: 10vw;
+    height: 16vw;
+    max-width: 181px;
+    max-height: 309px;
     border: 1px solid #707070;
     opacity: 1;
 }
@@ -206,142 +232,166 @@ body {
 .dont {
     font-family: Boldd;
     position: absolute;
-    font-size: 60px;
+    font-size: 3.2vw;
     text-align: left;
     color: #FFFFFF;
-    top: 1700px;
-    left: 135px;
-    width: 1664px;
-    height: 60px;
+    top: -1vw;
+    left: 3.5vw;
+    width: 90vw;
+    height: 28vw;
+    max-width: 1664px;
+    max-height: 60px;
     opacity: 1;
 }
 
 .you {
     font-family: ligth;
     position: absolute;
-    font-size: 50px;
+    font-size: 2.6vw;
     text-align: center;
     color: #FFFFFF;
-    top: 2220px;
-    left: 207px;
-    width: 1492px;
-    height: 110px;
+    top: 26vw;
+    left: 11vw;
+    width: 88w;
+    height: 30vw;
+    max-width: 1492px;
+    max-height: 110px;
     opacity: 1;
 }
 
 .azul3 {
     position: absolute;
-    top: 2467px;
-    left: 64px;
-    width: 1792px;
-    height: 567px;
-    border-radius: 108px;
+    top: 125vw;
+    left: 3vw;
+    width: 94.4vw;
+    height: 30vw;
+    max-width: 1792px;
+    max-height: 567px;
+    border-radius: 1vw;
     opacity: 1;
 }
 
 .equis {
     position: absolute;
-    top: 2650px;
-    left: 876px;
-    width: 169px;
-    height: 169px;
+    top: 10vw;
+    left: 42vw;
+    width: 10vw;
+    height: 10vw;
+    max-width: 169px;
+    max-height: 169px;
     opacity: 1;
 }
 
 .cancel {
     font-family: Boldd;
     position: absolute;
-    font-size: 60px;
+    font-size: 3.2vw;
     text-align: left;
     color: #FFFFFF;
-    top: 2470px;
-    left: 560px;
-    width: 800px;
-    height: 60px;
+    top: 1vw;
+    left: 26vw;
+    width: 90vw;
+    height: 28vw;
+    max-width: 800px;
+    max-height: 60px;
     opacity: 1;
 }
 
 .if {
     font-family: ligth;
     position: absolute;
-    font-size: 40px;
+    font-size: 2vw;
     text-align: center;
     color: #FFFFFF;
-    top: 2835px;
-    left: 269px;
-    width: 1382px;
-    height: 88px;
+    top: 20vw;
+    left: 15vw;
+    max-width: 1382px;
+    max-height: 88px;
     opacity: 1;
 }
 
 .com {
     font-family: ligth;
     position: absolute;
-    font-size: 125px;
+    font-size: 6vw;
     text-align: center;
     color: #FFFFFF;
-    top: 2980px;
-    left: 407px;
-    width: 1118px;
-    height: 125px;
+    top: 152vw;
+    left: 22vw;
+    width: 58vw;
+    height: 15vw;
+    max-width: 1118px;
+    max-height: 125px;
     opacity: 1;
 }
 
 .the {
     font-family: ligth;
     position: absolute;
-    font-size: 45px;
+    font-size: 2vw;
     text-align: center;
     color: #FFFFFF;
-    top: 3250px;
-    left: 181px;
-    width: 1544px;
-    height: 99px;
+    top: 166vw;
+    left: 8.5vw;
+    width: 85vw;
+    height: auto;
+    max-width: 1544px;
+    min-height: 99px;
     opacity: 1;
 }
 
 .mac {
     position: absolute;
-    top: 3460px;
-    left: 685px;
-    width: 584px;
-    height: 534px;
+    top: 176vw;
+    left: 39vw;
+    width: 25vw;
+    height: 23vw;
+    max-width: 584px;
+    max-height: 534px;
     opacity: 1;
 }
 
 .iphone {
     position: absolute;
-    top: 3632px;
-    left: 386px;
-    width: 256px;
-    height: 219px;
+    top: 181vw;
+    left: 20vw;
+    width: 12.5vw;
+    height: 10vw;
+    max-width: 256px;
+    max-height: 219px;
     opacity: 0.90;
 }
 
 .pc {
     position: absolute;
-    top: 3610px;
-    left: 1261px;
-    width: 271px;
-    height: 238px;
+    top: 181vw;
+    left: 70vw;
+    width: 12.5vw;
+    height: 10vw;
+    max-width: 271px;
+    max-height: 238px;
     opacity: 0.90;
 }
 
 .flecha1 {
     position: absolute;
-    top: 3689px;
-    left: 305px;
-    width: 19px;
-    height: 27px;
+    top: 184vw;
+    left: 20vw;
+    width: 2vw;
+    height: 3vw;
+    max-width: 19px;
+    max-height: 27px;
     opacity: 1;
 }
 
 .flecha2 {
     position: absolute;
-    top: 3702px;
-    left: 1575px;
-    width: 18px;
-    height: 26px;
+    top: 184vw;
+    left: 82vw;
+    width: 2vw;
+    height: 3vw;
+    max-width: 18px;
+    max-height: 26px;
     transform: rotate(-179deg);
     opacity: 1;
 }
@@ -349,43 +399,36 @@ body {
 .power {
     font-family: Pro;
     position: absolute;
-    font-size: 20px;
+    font-size: 1vw;
     text-align: left;
     color: #FFFFFF;
-    top: 3972px;
-    left: 843px;
-    width: 92px;
-    height: 20px;
+    top: 205vw;
+    left: 45vw;
+    width: 9vw;
+    height: 2vw;
+    max-width: 92px;
+    max-height: 20px;
     opacity: 0.50;
 }
 
 .firma {
     position: absolute;
-    top: 3970px;
-    left: 826px;
-    width: 430px;
-    height: 241px;
+    top: 205vw;
+    left: 45vw;
+    width: 20vw;
+    height: 12vw;
+    max-width: 430px;
+    max-height: 241px;
     opacity: 0.50;
 }
 
 .priv {
     position: absolute;
-    top: 4105px;
-    left: 545px;
-    width: 831px;
-    height: 25px;
+    top: 212vw;
+    left: 32vw;
+    width: 40vw;
+    height: 4vw;
+    max-width: 831px;
+    max-height: 25px;
     opacity: 0.50;
-}
-
-.autor {
-    font-family: Pro;
-    position: absolute;
-    font-size: 15px;
-    text-align: left;
-    color: #FFFFFF;
-    top: 4115px;
-    left: 5px;
-    width: 831px;
-    height: 25px;
-    opacity: 0.20;
 }
