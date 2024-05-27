@@ -1,0 +1,32 @@
+body {
+    width: 1024px;
+    height: 1992px;
+    background-color: #032b57;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mesatrabajo1{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    background-color: black;
+    top: 0px;
+    width: 1024px;
+    height: 1254px;
+    border-radius: 15px;
+}
+.espacio{
+    width: 1024px;
+    height: 15px;
+    background-color: #032b57;
+}
+.mesatrabajo2{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    background-color: rgb(219, 69, 69);
+    width: 1024px;
+    height: 728px;
+    border-radius: 15px;
+}
