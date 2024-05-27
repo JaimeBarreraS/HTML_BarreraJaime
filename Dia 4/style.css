@@ -27,7 +27,6 @@ body {
     max-width: 1920px;
     max-height: 4149px;
     margin: 0 auto;
-    overflow: hidden;
 }
 
 .fondo2 {
@@ -36,8 +35,8 @@ body {
     left: 0;
     width: 100%;
     height: auto;
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 1920px;
+    max-height: 1080px;
     opacity: 0.75;
 }
 
