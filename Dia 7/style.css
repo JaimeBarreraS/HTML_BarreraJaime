@@ -1,32 +1,124 @@
 body {
-    width: 1024px;
-    height: 1992px;
+    display: grid;
+    flex-direction: column;
+    row-gap: 15px;
+    width: 100vw;
+    min-height: 100vh;
     background-color: #032b57;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: auto;
 }
 .mesatrabajo1{
     display: grid;
-    grid-template-columns: auto auto;
-    gap: 10px;
     background-color: black;
-    top: 0px;
-    width: 1024px;
-    height: 1254px;
+    width: 100%;
+    height: auto;
+    row-gap: 12px;
     border-radius: 15px;
+    padding-left: 18px;
+    padding-top: 18px;
+    padding-bottom: 18px;
 }
-.espacio{
-    width: 1024px;
-    height: 15px;
-    background-color: #032b57;
+.cuadro1{   
+    background-color: #ebf1eb;
+    border-radius: 15px;
+    height: 42vh;
+    width: 50vw;
+    overflow: hidden;
+}
+.video1{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.cuadro2{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column: 2;
+    background-color: #ebf1eb;
+    border-radius: 15px;
+    height: 86vh;
+    width: 62vw;
+    text-align: center;
+    overflow: hidden;
+}
+.img1{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.cuadro3{
+    background-color: #04da04;
+    border-radius: 15px;
+    height: 42vh;
+    width: 50vw;
+    overflow: hidden;
+}
+.video2{
+    height: 45.6vh;
+    width: 50vw;
+}
+.cuadro4{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: #ebf1eb;
+    border-radius: 15px;
+    height: 55vh;
+    width: 113vw;
+    overflow: hidden;
+}
+.video3{
+    height: 57vh;
+    width: 110vw;
 }
 .mesatrabajo2{
     display: grid;
     grid-template-columns: auto auto;
-    gap: 10px;
-    background-color: rgb(219, 69, 69);
-    width: 1024px;
-    height: 728px;
+    background-color: black;
+    width: 100%;
+    height: auto;
+    row-gap: 12px;
     border-radius: 15px;
+    padding-left: 18px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.cuadro5{
+    background-color: #04da04;
+    height: 42vh;
+    width: 50vw;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+}
+.img2{
+    height: 100%;
+    width: 80%;
+    object-fit: contain;
+}
+.img3{
+    height: 100%;
+    width: 65%;
+}
+
+.cuadro6{
+    background-color:#2a2b2a;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column: 2;
+    height: 86vh;
+    width: 62vw;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+}
+.cuadro7{
+    background-color: #ebf1eb;
+    height: 42vh;
+    width: 50vw;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.video4{
+    height: 100%;
+    width: 100%;
 }
