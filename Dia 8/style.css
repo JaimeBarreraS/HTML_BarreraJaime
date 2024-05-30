@@ -1,0 +1,348 @@
+@keyframes nube {
+    100% { left:9vw; top:8vw;}
+    100% {visibility:visible;}
+}
+@keyframes letra{
+    100% {opacity: 0.8;}
+}
+@keyframes nube2 {
+    100% { left:-30vw; top:8vw;}
+    100% {opacity: 0.6;}
+}
+@keyframes nube3 {
+    100% { left:9vw; top:8vw;}
+    100% {visibility:visible;}
+}
+@keyframes lluvia {
+    100% {opacity: 1;}
+}
+@keyframes sol {
+    100% {opacity: 1;}
+}
+@keyframes flor {
+    100% {opacity: 1;}
+}
+
+body{
+    width: 100vw;
+    min-height: 100vh;
+}
+.mesatrabajo{
+    width: 100%;
+    height: 100%;
+}
+.fondo{
+    width: 100%;
+    height: 100%;
+}
+.p1{
+    position: absolute;
+    top: 10vw;
+    left: 48vw;
+    font-size: 15vw;
+    animation-name: letra;
+    animation-duration: 0.4s;
+    opacity: 0;
+    color: rgb(65, 65, 65);
+}
+.p2{
+    position: absolute;
+    top: 10vw;
+    left: 48vw;
+    font-size: 15vw;
+    animation-name: letra;
+    animation-duration: 0.4s;
+    animation-delay: 0.4s;
+    opacity: 0;
+    color: rgb(65, 65, 65);
+}
+.p3{
+    position: absolute;
+    top: 10vw;
+    left: 48vw;
+    font-size: 15vw;
+    animation-name: letra;
+    animation-duration: 0.4s;
+    animation-delay: 0.8s;
+    opacity: 0;
+    color: rgb(65, 65, 65);
+}
+.p4{
+    position: absolute;
+    top: 10vw;
+    left: 28vw;
+    font-size: 14vw;
+    animation-name: letra;
+    animation-duration: 0.4s;
+    animation-delay: 1.2s;
+    opacity: 0;
+    color: rgb(65, 65, 65);
+}
+.nube{
+    position: absolute;
+    top: 8vw;
+    left: 75vw;
+    width: 22vw;
+    height: 11vw;
+    animation-name: nube;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    visibility: hidden;
+}
+.nube2{
+    position: absolute;
+    left:9vw; 
+    top:8vw;
+    width: 22vw;
+    height: 11vw;
+    animation-name: nube2;
+    animation-duration: 3s;
+    animation-delay: 9s;
+    opacity: 0;
+    animation-timing-function: ease;
+}
+.nube3{
+    position: absolute;
+    left:9vw; 
+    top:8vw;
+    width: 22vw;
+    height: 11vw;
+    animation-name: nube3;
+    animation-duration: 2.2s;
+    animation-delay: 7s;
+    visibility: hidden;
+    animation-timing-function: ease;
+}
+.lluvia{
+    position: absolute;
+    top: 16vw;
+    left: 8vw;
+    width: 22vw;
+    height: 5vw;
+    opacity: 0;
+    animation-name: lluvia;
+    animation-duration: 1s;
+    animation-delay: 7s;
+}
+.lluvia2{
+    position: absolute;
+    top: 21vw;
+    left: 8vw;
+    width: 22vw;
+    height: 5vw;
+    opacity: 0;
+    animation-name: lluvia;
+    animation-duration: 1s;
+    animation-delay: 7.2s;
+}
+.lluvia3{
+    position: absolute;
+    top: 26vw;
+    left: 8vw;
+    width: 22vw;
+    height: 5vw;
+    opacity: 0;
+    animation-name: lluvia;
+    animation-duration: 1s;
+    animation-delay: 7.4s;
+}
+.lluvia4{
+    position: absolute;
+    top: 31vw;
+    left: 8vw;
+    width: 22vw;
+    height: 5vw;
+    opacity: 0;
+    animation-name: lluvia;
+    animation-duration: 1s;
+    animation-delay: 7.6s;
+}
+.lluvia5{
+    position: absolute;
+    top: 36vw;
+    left: 8vw;
+    width: 22vw;
+    height: 5vw;
+    opacity: 0;
+    animation-name: lluvia;
+    animation-duration: 1s;
+    animation-delay: 7.8s;
+}
+.lluvia6{
+    position: absolute;
+    top: 41vw;
+    left: 8vw;
+    width: 22vw;
+    height: 5vw;
+    opacity: 0;
+    animation-name: lluvia;
+    animation-duration: 1s;
+    animation-delay: 8s;
+}
+.lluvia7{
+    position: absolute;
+    top:46vw;
+    left: 8vw;
+    width: 22vw;
+    height: 5vw;
+    opacity: 0;
+    animation-name: lluvia;
+    animation-duration: 1s;
+    animation-delay: 8.2s;
+}
+.sol{
+    position: absolute;
+    top: 2vw;
+    left: 62vw;
+    width: 11vw;
+    height: 11vw;
+    opacity: 0;
+    animation-name: sol;
+    animation-duration: 12s;
+    animation-delay: 8s;
+}
+.flor{
+    position: absolute;
+    top: 45.5vw;
+    left: 1vw;
+    width: 8vw;
+    height: 10vw;
+    transform: rotate(5deg);
+    opacity: 0;
+    animation-name: flor;
+    animation-duration: 4s;
+    animation-delay: 9s;
+}
+
+.flor1{
+    position: absolute;
+    top: 48.7vw;
+    left: 4vw;
+    width: 7vw;
+    height: 7vw;
+    transform: rotate(5deg);
+    opacity: 0;
+    animation-name: flor;
+    animation-duration: 4s;
+    animation-delay: 9.5s;
+}
+.flor2{
+    position: absolute;
+    top: 46.2vw;
+    left: 6vw;
+    width: 8vw;
+    height: 10vw;
+    transform: rotate(5deg);
+    opacity: 0;
+    animation-name: flor;
+    animation-duration: 4s;
+    animation-delay: 10s;
+}
+.flor3{
+    position: absolute;
+    top: 49.2vw;
+    left: 9vw;
+    width: 7vw;
+    height: 7vw;
+    transform: rotate(5deg);
+    opacity: 0;
+    animation-name: flor;
+    animation-duration: 4s;
+    animation-delay: 10.5s;
+}
+.flor4{
+    position: absolute;
+    top: 46.6vw;
+    left: 11vw;
+    width: 8vw;
+    height: 10vw;
+    transform: rotate(5deg);
+    opacity: 0;
+    animation-name: flor;
+    animation-duration: 4s;
+    animation-delay: 11s;
+}
+.flor5{
+    position: absolute;
+    top: 49.6vw;
+    left: 14vw;
+    width: 7vw;
+    height: 7vw;
+    transform: rotate(5deg);
+    opacity: 0;
+    animation-name: flor;
+    animation-duration: 4s;
+    animation-delay: 11.5s;
+}
+.flor6{
+    position: absolute;
+    top: 47.2vw;
+    left: 16vw;
+    width: 8vw;
+    height: 10vw;
+    transform: rotate(5deg);
+    opacity: 0;
+    animation-name: flor;
+    animation-duration: 4s;
+    animation-delay: 12s;
+}
+.flor7{
+    position: absolute;
+    top: 50.1vw;
+    left: 19vw;
+    width: 7vw;
+    height: 7vw;
+    transform: rotate(5deg);
+    opacity: 0;
+    animation-name: flor;
+    animation-duration: 4s;
+    animation-delay: 12.5s;
+}
+.flor8{
+    position: absolute;
+    top: 47.5vw;
+    left: 21vw;
+    width: 8vw;
+    height: 10vw;
+    transform: rotate(5deg);
+    opacity: 0;
+    animation-name: flor;
+    animation-duration: 4s;
+    animation-delay: 13s;
+}
+.flor9{
+    position: absolute;
+    top: 50.5vw;
+    left: 24vw;
+    width: 7vw;
+    height: 7vw;
+    transform: rotate(5deg);
+    opacity: 0;
+    animation-name: flor;
+    animation-duration: 4s;
+    animation-delay: 13.5s;
+}
+.flor10{
+    position: absolute;
+    top: 48vw;
+    left: 26vw;
+    width: 8vw;
+    height: 10vw;
+    transform: rotate(5deg);
+    opacity: 0;
+    animation-name: flor;
+    animation-duration: 4s;
+    animation-delay: 14s;
+}
+.flor11{
+    position: absolute;
+    top: 51vw;
+    left: 29vw;
+    width: 7vw;
+    height: 7vw;
+    transform: rotate(5deg);
+    opacity: 0;
+    animation-name: flor;
+    animation-duration: 4s;
+    animation-delay: 14.5s;
+}
