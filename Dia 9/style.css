@@ -1,33 +1,279 @@
-*{
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+);
+
+* {
     margin: 0;
     padding: 0;
+    border: none;
+    outline: none;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
-.header{
-    position: fixed;
-    width: 100%;
-    height: 90px;
+
+body {
+    display: flex;
+}
+
+.sidebar {
+    position: sticky;
     top: 0;
     left: 0;
-    background-color: aqua;
+    bottom: 0;
+    width: 4vw;
+    height: 100vh;
+    padding: 0.2vw;
+    color: rgb(152, 151, 151);
+    overflow: hidden;
+    transition: all 0.5s linear;
+    background: rgb(255, 255, 255);
 }
-body {
 
+.sidebar:hover {
+    width: 22vw;
+    transition: 0.5s;
 }
-.logo{
-    position: absolute;
-    max-width: 30px;
-    width: 10vw;
-    left: 6vw;
-    top: 1.5vw;
-    right: 2vw;
+
+.logo {
+    height: 5vw;
+    padding: 0.8vw;
+    position: relative;
+}
+
+.logo li {
+    padding: 1.1vw;
+    margin: 0;
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+}
+
+.logo a {
+    text-decoration: none;
+    color: blue;
+    font-size: 1.5vw;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 1.5vw;
+}
+
+.logo a span {
+    overflow: hidden;
+}
+.logo a i {
+    font-size: 1.5vw;
+}
+
+.menu {
+    height: 88%;
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    padding: 1.1vw;
+    margin: 0;
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+}
+
+.menu li.dropdown:hover,
+.menu li.active {
+    background: blue;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 0.8vw;
+    display: flex;
+    align-items: center;
+    gap: 1.5vw;
+}
+
+.menu a span {
+    overflow: hidden;
+}
+
+.menu a i {
+    font-size: 1vw;
+}
+
+.menu li.dropdown:hover a span {
+    color: #ffffff;
+}
+
+.menu li.dropdown:hover a i {
+    color: #ffffff;
+}
+
+.menu li.active a span,
+.menu li.active a i {
+    color: #fff;
+}
+
+
+.arrow {
+    transform: rotate(-90deg);
+    transition: transform 0.3s ease-in-out;
+    margin-left: 4vw;
+}
+
+.sub-menu {
+    display: none;
+    padding-left: 2.5vw;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.sub-menu a {
+    font-size: 0.7vw;
+}
+
+.sub-menu a:hover {
+    color: blue;
+}
+
+.dropdown:hover .sub-menu {
+    display: block;
+}
+
+.dropdown:hover>a .arrow {
+    transform: rotate(0deg);
+}
+
+.sidebar .main-text,
+.sidebar .table-forms-text {
+    display: none;
+}
+
+.sidebar:hover .main-text,
+.sidebar:hover .table-forms-text {
+    display: inline-block;
+}
+
+.sidebar:hover .main-text::before {
+    content: " MAIN";
+    margin-left: 0.5vw;
+    font-size: 0.8vw;
+}
+
+.sidebar:hover .table-forms-text::before {
+    content: "TABLE AND FORMS";
+    margin-left: 0.5vw;
+    font-size: 0.8vw;
+}
+
+/*======================================================*/
+.main--content{
+    position: relative;
+    background-color: rgb(220, 220, 220) ;
+    width: 100%;
 }
 .foto{
     position: absolute;
-    border-radius: 50%;
-    max-width: 70px;
-    width: 9vw;
-    height: 7.5vh;
-    top: 0.6vw;
+    top:1.7vw;
+    left: 1.5vw;
+    width: 1vw;
+    height: 0.7vw;
+    cursor: pointer;
+}
+.perfil{
+    position: absolute;
     right: 1vw;
+    top: 0.9vw;
+    width: 2.5vw;
+    height: 2.5vw;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.header--wrapper{
+    background: #ffffff;
+    height: 4.3vw;
+}
+.header--title{
+    position: relative;
+    background: rgb(220, 220, 220);
+    overflow: hidden;
+}
+.text0{
+    position: relative;
+    left: 1.5vw;
+    font-size: 1vw;
+}
+.text01{
+    position: relative;
+    left: 1.5vw;
+    font-size: 0.8vw;
+}
+.text1{
+    color: blue;
+}
+.text2{
+    color:  rgb(152, 151, 151);
+}
+.chart1{
+    position: absolute;
+    background-color: blue;
+    top: 13vw;
+    right: 1.8vw;
+    width: 18.3vw;
+    height: 11vw;
+}
+.chart2{
+    position: absolute;
+    background-color: rgb(0, 255, 85);
+    top: 13vw;
+    right: 21.7vw;;
+    width: 18.3vw;
+    height: 11vw;
+}
+.chart3{
+    position: absolute;
+    background-color: rgb(221, 106, 53);
+    top: 13vw;
+    right: 41.8vw;
+    width: 18.3vw;
+    height: 11vw;
+}
+.chart4{
+    position: absolute;
+    background-color: rgb(141, 33, 132);
+    top: 13vw;
+    right: 61.9vw;
+    width: 18.3vw;
+    height: 11vw;
+}
+.chart5{
+    position: absolute;
+    background-color: rgb(0, 128, 255);
+    top: 25.4vw;
+    right: 1.8vw;
+    width: 78.4vw;
+    height: 8vw;
+}
+
+.sidebar:hover ~ .main--content .chart4 {
+    transform: scalex(1);
+    transform-origin: right;
+}
+
+.sidebar:hover ~ .main--content .chart2 {
+    transform: scalex(1);
+    transform-origin: right;
+}
+.sidebar:hover ~ .main--content .chart3 {
+    transform: scalex(1);
+    transform-origin: right;
+}
+.sidebar:hover ~ .main--content .chart4 {
+    transform: scalex(1);
+    transform-origin: right;
+}
+
+
+.sidebar:hover ~ .main--content .chart5 {
+    transform: scalex(1.2);
+    transform-origin: right;
+    transition: 0.5s;
 }

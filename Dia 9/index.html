@@ -1,64 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
     <title>Document</title>
 </head>
+
 <body>
-    <header class="header">
-        <div class="container">
-            <img class="logo" src="./media/menu.png" alt="">
-            <img class="foto" src="./media/imagen1.jpeg" alt="">
-        </div>
-    </header>
     <div class="sidebar">
-        <div class="happy"></div>
-        <ul class="main">
-            <li>
+        <div class="logo">
+            <a href="#">
+                <i class="material-symbols-outlined">
+                    sentiment_satisfied
+                </i>
+                <span>AdminSite</span>
+            </a>
+        </div>
+        <br>
+        <ul class="menu">
+            <li class="active">
                 <a href="#">
-                    <i class="adminsite"></i>
-                    <span>AdminSite</span>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="adminsite"></i>
+                    <i class="material-symbols-outlined">
+                        dashboard
+                    </i>
                     <span>Dashboard</span>
                 </a>
             </li>
-            <li>
+            <br>
+            <br>
+            <p><span class="main-text"></span></p>
+            <li class="dropdown">
                 <a href="#">
-                    <i class="adminsite"></i>
-                    <span>MAIN</span>
+                    <i class="material-symbols-outlined">inbox</i>
+                    <span>Elements</span>
+                    <i class="material-symbols-outlined arrow">expand_more</i>
+                </a>
+                <ul class="sub-menu"><br>
+                    <br><a href="#">Alert</a><br>
+                    <br><a href="#">Badges</a><br>
+                    <br><a href="#">Breadcrumbs</a><br>
+                    <br><a href="#">Button</a>
+                </ul>
+            </li>
+            <li class="px">
+                <a href="#">
+                    <i class="material-symbols-outlined">
+                        bid_landscape
+                    </i>
+                    <span>Charts</span>
                 </a>
             </li>
-            <li>
+            <li class="px">
                 <a href="#">
-                    <i class="adminsite"></i>
-                    <span>MAIN</span>
+                    <i class="material-symbols-outlined">
+                        widgets
+                    </i>
+                    <span>Widgets</span>
                 </a>
             </li>
-            <li>
+            <br>
+            <p><span class="table-forms-text"></span></p>
+            <li class="px">
                 <a href="#">
-                    <i class="adminsite"></i>
-                    <span>MAIN</span>
+                    <i class="material-symbols-outlined">
+                        dataset
+                    </i>
+                    <span>Tables</span>
                 </a>
             </li>
-            <li>
+            <li class="dropdown">
                 <a href="#">
-                    <i class="adminsite"></i>
-                    <span>MAIN</span>
+                    <i class="material-symbols-outlined">event_note</i>
+                    <span>Forms</span>
+                    <i class="material-symbols-outlined arrow">expand_more</i>
                 </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="adminsite"></i>
-                    <span>MAIN</span>
-                </a>
+                <ul class="sub-menu"><br>
+                    <br><a href="#">Basic</a><br>
+                    <br><a href="#">Select</a><br>
+                    <br><a href="#">Checkbox</a><br>
+                    <br><a href="#">Radio</a>
+                </ul>
             </li>
         </ul>
     </div>
+
+    <div class="main--content">
+        <div class="header--wrapper">
+            <div>
+                <img class="foto" src="./media/menu.png" alt="">
+                <img class="perfil" src="./media/imagen1.jpeg" alt="">
+            </div>
+        </div>
+        <div class="header--title">
+            <br><div class="text0"><h1>Dashboard</h1></div>
+            <br><div class="text01"><span class="text1">Home</span><span class="text2"> / Dashboard</span></div>
+        </div>
+        <div class="chart1">1</div>
+        <div class="chart2">2</div>
+        <div class="chart3">3</div>
+        <div class="chart4">4</div>
+        <div class="chart5">5</div>
+        
+    </div>
+
 </body>
+
 </html>
