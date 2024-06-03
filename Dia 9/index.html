@@ -91,7 +91,12 @@
     <div class="main--content">
         <div class="header--wrapper">
             <div>
-                <img class="foto" src="./media/menu.png" alt="">
+                <div class="btn">
+                    <label for="click" onclick="toggleSidebar()">
+                        <i class="material-symbols-outlined">menu</i>
+                    </label>
+                    <input type="checkbox" id="click" />
+                </div>
                 <img class="perfil" src="./media/imagen1.jpeg" alt="">
             </div>
         </div>
@@ -106,6 +111,12 @@
         <div class="chart5">5</div>
         
     </div>
+    <script>
+        function toggleSidebar() {
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.classList.toggle('sidebar-expanded');
+        }
+    </script>
 
 </body>
 

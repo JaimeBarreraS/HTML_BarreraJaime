@@ -24,26 +24,16 @@ body {
     padding: 0.2vw;
     color: rgb(152, 151, 151);
     overflow: hidden;
-    transition: all 0.5s linear;
+    transition: 0.5s;
     background: rgb(255, 255, 255);
 }
 
-.sidebar:hover {
-    width: 22vw;
-    transition: 0.5s;
-}
+
 
 .logo {
     height: 5vw;
     padding: 0.8vw;
     position: relative;
-}
-
-.logo li {
-    padding: 1.1vw;
-    margin: 0;
-    border-radius: 8px;
-    transition: all 0.5s ease-in-out;
 }
 
 .logo a {
@@ -74,7 +64,7 @@ body {
     padding: 1.1vw;
     margin: 0;
     border-radius: 8px;
-    transition: all 0.5s ease-in-out;
+    transition:  0.5s;
 }
 
 .menu li.dropdown:hover,
@@ -176,6 +166,23 @@ body {
     width: 1vw;
     height: 0.7vw;
     cursor: pointer;
+    z-index: 1;
+}
+.sidebar-expanded {
+    width: 22vw;
+}
+
+.btn label {
+    position: absolute;
+    top: 1.6vw;
+    left: 1.5vw;
+    width: 1vw;
+    height: 0.7vw;
+    cursor: pointer;
+}
+
+#click {
+    display: none;
 }
 .perfil{
     position: absolute;
@@ -198,12 +205,12 @@ body {
 }
 .text0{
     position: relative;
-    left: 1.5vw;
+    left: 1.6vw;
     font-size: 1vw;
 }
 .text01{
     position: relative;
-    left: 1.5vw;
+    left: 1.8vw;
     font-size: 0.8vw;
 }
 .text1{
@@ -217,31 +224,31 @@ body {
     background-color: blue;
     top: 13vw;
     right: 1.8vw;
-    width: 18.3vw;
+    width: 22vw;
     height: 11vw;
 }
 .chart2{
     position: absolute;
     background-color: rgb(0, 255, 85);
     top: 13vw;
-    right: 21.7vw;;
-    width: 18.3vw;
+    right: 25.3vw;;
+    width: 22vw;
     height: 11vw;
 }
 .chart3{
     position: absolute;
     background-color: rgb(221, 106, 53);
     top: 13vw;
-    right: 41.8vw;
-    width: 18.3vw;
+    right: 48.8vw;
+    width: 22vw;
     height: 11vw;
 }
 .chart4{
     position: absolute;
     background-color: rgb(141, 33, 132);
     top: 13vw;
-    right: 61.9vw;
-    width: 18.3vw;
+    right: 72.4vw;
+    width: 22vw;
     height: 11vw;
 }
 .chart5{
@@ -249,31 +256,67 @@ body {
     background-color: rgb(0, 128, 255);
     top: 25.4vw;
     right: 1.8vw;
-    width: 78.4vw;
+    width: 92.5vw;
     height: 8vw;
 }
 
-.sidebar:hover ~ .main--content .chart4 {
-    transform: scalex(1);
+.sidebar:hover ~ .main--content .chart1 {
+    transform: scalex(0.84);
     transform-origin: right;
+    transition: 0.5s;
 }
 
 .sidebar:hover ~ .main--content .chart2 {
-    transform: scalex(1);
+    transform: scalex(0.84);
     transform-origin: right;
+    transition: 0.5s;
+    right: 21.9vw;
 }
 .sidebar:hover ~ .main--content .chart3 {
-    transform: scalex(1);
+    transform: scalex(0.84);
     transform-origin: right;
+    transition: 0.5s;
+    right: 41.95vw;
 }
 .sidebar:hover ~ .main--content .chart4 {
-    transform: scalex(1);
+    transform: scalex(0.84);
     transform-origin: right;
+    transition: 0.5s;
+    right: 62vw;
 }
 
 
 .sidebar:hover ~ .main--content .chart5 {
-    transform: scalex(1.2);
+    transform: scalex(0.85);
+    transform-origin: right;
+    transition: 0.49s;
+}
+.chart1 {
+    transform: scalex(1);
     transform-origin: right;
     transition: 0.5s;
+}
+
+.chart2 {
+    transform: scalex(1);
+    transform-origin: right;
+    transition: 0.5s;
+}
+
+.chart3 {
+    transform: scalex(1);
+    transform-origin: right;
+    transition: 0.5s;
+}
+
+.chart4 {
+    transform: scalex(1);
+    transform-origin: right;
+    transition: 0.5s;
+}
+
+.chart5 {
+    transform: scalex(1);
+    transform-origin: right;
+    transition: 0.49s;
 }
