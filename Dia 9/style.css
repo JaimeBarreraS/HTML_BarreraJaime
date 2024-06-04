@@ -19,6 +19,7 @@ body {
     top: 0;
     left: 0;
     bottom: 0;
+    left: -20vw; 
     width: 4vw;
     height: 100vh;
     padding: 0.2vw;
@@ -27,8 +28,6 @@ body {
     transition: 0.5s;
     background: rgb(255, 255, 255);
 }
-
-
 
 .logo {
     height: 5vw;
@@ -67,9 +66,20 @@ body {
     transition:  0.5s;
 }
 
+.menu li.active{
+    margin-bottom: 2vw;
+}
+.menu li.px2{
+    margin-bottom: 1.8vw;
+}
+
 .menu li.dropdown:hover,
 .menu li.active {
     background: blue;
+}
+.menu li.px:hover,
+.menu li.px2:hover{
+    background-color: rgb(237, 237, 237) ;
 }
 
 .menu a {
@@ -133,24 +143,29 @@ body {
 
 .sidebar .main-text,
 .sidebar .table-forms-text {
-    display: none;
-}
-
-.sidebar:hover .main-text,
-.sidebar:hover .table-forms-text {
     display: inline-block;
 }
 
-.sidebar:hover .main-text::before {
+.sidebar .main-text::before,
+.sidebar .table-forms-text::before {
+    content: " -";
+    margin-left: 0.5vw;
+    font-size: 0.8vw;
+    padding-left: 0.8vw; 
+}
+
+#click:checked ~  .sidebar .main-text::before {
     content: " MAIN";
     margin-left: 0.5vw;
     font-size: 0.8vw;
+    padding-left: 0vw; 
 }
 
-.sidebar:hover .table-forms-text::before {
+#click:checked ~  .sidebar .table-forms-text::before {
     content: "TABLE AND FORMS";
     margin-left: 0.5vw;
     font-size: 0.8vw;
+    padding-left: 0vw; 
 }
 
 /*======================================================*/
@@ -158,6 +173,7 @@ body {
     position: relative;
     background-color: rgb(220, 220, 220) ;
     width: 100%;
+    min-height: 100vh;
 }
 .foto{
     position: absolute;
@@ -168,21 +184,27 @@ body {
     cursor: pointer;
     z-index: 1;
 }
-.sidebar-expanded {
-    width: 22vw;
-}
 
 .btn label {
-    position: absolute;
-    top: 1.6vw;
-    left: 1.5vw;
-    width: 1vw;
-    height: 0.7vw;
+    position: relative;
     cursor: pointer;
+    color: black;
+}
+.btn label i{
+    position: absolute;
+    top: 1.5vw;
+    left: 1.3vw;
+    cursor: pointer;
+    color: black;
+    font-size: 1.3vw;
+}
+#click:checked ~ .sidebar  {
+    width: 22vw;
+    transition: 0.5s;
 }
 
 #click {
-    display: none;
+    display:none;
 }
 .perfil{
     position: absolute;
@@ -196,21 +218,24 @@ body {
 
 .header--wrapper{
     background: #ffffff;
+    width: 100;
     height: 4.3vw;
 }
 .header--title{
     position: relative;
-    background: rgb(220, 220, 220);
+    background:rgb(220, 220, 220);
     overflow: hidden;
+    height: 40vw;
 }
 .text0{
-    position: relative;
-    left: 1.6vw;
+    position: absolute;
+    left: 1.3vw;
     font-size: 1vw;
 }
 .text01{
-    position: relative;
-    left: 1.8vw;
+    position: absolute;
+    left: 1.4vw;
+    top: 5vw;
     font-size: 0.8vw;
 }
 .text1{
@@ -221,75 +246,156 @@ body {
 }
 .chart1{
     position: absolute;
-    background-color: blue;
-    top: 13vw;
-    right: 1.8vw;
-    width: 22vw;
+    background-color: rgb(255, 255, 255);
+    top: 9vw;
+    left: 1.4vw;
+    width: 22.2vw;
     height: 11vw;
+    border-radius: 0.7vw;
+    box-shadow: 2px 2px 8px 0 rgb(211, 211, 211), 4px 4px 16px 0 rgb(211, 211, 211), 0px 0px 24px 2px rgb(181, 181, 181);
 }
+
 .chart2{
     position: absolute;
-    background-color: rgb(0, 255, 85);
-    top: 13vw;
-    right: 25.3vw;;
-    width: 22vw;
+    background-color: rgb(255, 255, 255);
+    top: 9vw;
+    left: 25.1vw;;
+    width: 22.2vw;
     height: 11vw;
+    border-radius: 0.7vw;
+    box-shadow: 2px 2px 8px 0 rgb(211, 211, 211), 4px 4px 16px 0 rgb(211, 211, 211), 0px 0px 24px 2px rgb(181, 181, 181);
 }
 .chart3{
     position: absolute;
-    background-color: rgb(221, 106, 53);
-    top: 13vw;
-    right: 48.8vw;
-    width: 22vw;
+    background-color: rgb(255, 255, 255);
+    top: 9vw;
+    left: 48.8vw;
+    width: 22.2vw;
     height: 11vw;
+    border-radius: 0.7vw;
+    box-shadow: 2px 2px 8px 0 rgb(211, 211, 211), 4px 4px 16px 0 rgb(211, 211, 211), 0px 0px 24px 2px rgb(181, 181, 181);
 }
 .chart4{
     position: absolute;
-    background-color: rgb(141, 33, 132);
-    top: 13vw;
-    right: 72.4vw;
-    width: 22vw;
+    background-color: rgb(255, 255, 255);
+    top: 9vw;
+    left: 72.5vw;
+    width: 22.2vw;
     height: 11vw;
+    border-radius: 0.7vw;
+    box-shadow: 2px 2px 8px 0 rgb(211, 211, 211), 4px 4px 16px 0 rgb(211, 211, 211), 0px 0px 24px 2px rgb(181, 181, 181);
 }
 .chart5{
     position: absolute;
-    background-color: rgb(0, 128, 255);
-    top: 25.4vw;
-    right: 1.8vw;
-    width: 92.5vw;
+    background-color: rgb(255, 255, 255);
+    top: 21.5vw;
+    left: 1.4vw;
+    width: 93.3vw;
     height: 8vw;
+    border-radius: 0.7vw;
+    box-shadow: 2px 2px 8px 0 rgb(211, 211, 211), 4px 4px 16px 0 rgb(211, 211, 211), 0px 0px 24px 2px rgb(181, 181, 181);
 }
 
-.sidebar:hover ~ .main--content .chart1 {
+.number{
+    top: 1vw;
+    position: absolute;
+    font-size: 2vw;
+    font-weight: bold;
+    left: 1.2vw;
+}
+.letter{
+    position: absolute;
+    left: 1.2vw;
+    top: 3.8vw;
+    font-size: 0.8vw;
+}
+.icon-green{
+    position: absolute;
+    font-size: 1.5vw;
+    color: rgb(136, 206, 74);
+    left: 20vw;
+    top: 0.6vw;
+}
+.icon-red{
+    position: absolute;
+    font-size: 1.5vw;
+    color: rgb(255, 0, 0);
+    left: 20vw;
+    top: 0.6vw;
+}
+.bar{
+    position: absolute;
+    background-color: rgb(176, 177, 177);
+    left: 1.2vw;
+    height: 0.6vw;
+    width: 19.8vw;
+    top: 7vw;
+    border-radius: 8vw;
+    overflow: hidden;
+}
+.porcent{
+    width: 8vw;
+    height: 100%;
+    background-color: blue;
+    border:blue;
+}
+.porcent1{
+    width: 12vw;
+    height: 100%;
+    background-color: blue;
+    border:blue;
+}
+.porcent2{
+    width: 6vw;
+    height: 100%;
+    background-color: blue;
+    border:blue;
+}
+.porcent3{
+    width: 14.5vw;
+    height: 100%;
+    background-color: blue;
+    border:blue;
+}
+.number-porcent{
+    position: absolute;
+    font-weight: bold;
+    left: 1.2vw;
+    top: 8vw;
+    font-size: 0.8vw;
+}
+
+#click:checked ~  .sidebar ~ .main--content .chart1 {
     transform: scalex(0.84);
     transform-origin: right;
     transition: 0.5s;
+    left: -2.2vw;
 }
 
-.sidebar:hover ~ .main--content .chart2 {
+#click:checked ~  .sidebar ~ .main--content .chart2 {
     transform: scalex(0.84);
     transform-origin: right;
     transition: 0.5s;
-    right: 21.9vw;
+    left:  17.97vw;
 }
-.sidebar:hover ~ .main--content .chart3 {
+#click:checked ~  .sidebar ~ .main--content .chart3 {
     transform: scalex(0.84);
     transform-origin: right;
     transition: 0.5s;
-    right: 41.95vw;
+    left: 38.1vw;
 }
-.sidebar:hover ~ .main--content .chart4 {
+#click:checked ~  .sidebar ~ .main--content .chart4 {
     transform: scalex(0.84);
     transform-origin: right;
     transition: 0.5s;
-    right: 62vw;
+    left: 58.3vw;
 }
 
-
-.sidebar:hover ~ .main--content .chart5 {
+#click:checked ~  .sidebar ~ .main--content .chart5 {
     transform: scalex(0.85);
     transform-origin: right;
     transition: 0.49s;
+    left: -12.7vw;
 }
 .chart1 {
     transform: scalex(1);

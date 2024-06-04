@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <input type="checkbox" id="click">
     <div class="sidebar">
         <div class="logo">
             <a href="#">
@@ -30,8 +31,6 @@
                     <span>Dashboard</span>
                 </a>
             </li>
-            <br>
-            <br>
             <p><span class="main-text"></span></p>
             <li class="dropdown">
                 <a href="#">
@@ -54,7 +53,7 @@
                     <span>Charts</span>
                 </a>
             </li>
-            <li class="px">
+            <li class="px2">
                 <a href="#">
                     <i class="material-symbols-outlined">
                         widgets
@@ -62,7 +61,6 @@
                     <span>Widgets</span>
                 </a>
             </li>
-            <br>
             <p><span class="table-forms-text"></span></p>
             <li class="px">
                 <a href="#">
@@ -92,10 +90,9 @@
         <div class="header--wrapper">
             <div>
                 <div class="btn">
-                    <label for="click" onclick="toggleSidebar()">
+                    <label for="click">
                         <i class="material-symbols-outlined">menu</i>
                     </label>
-                    <input type="checkbox" id="click" />
                 </div>
                 <img class="perfil" src="./media/imagen1.jpeg" alt="">
             </div>
@@ -103,21 +100,53 @@
         <div class="header--title">
             <br><div class="text0"><h1>Dashboard</h1></div>
             <br><div class="text01"><span class="text1">Home</span><span class="text2"> / Dashboard</span></div>
+            <div class="chart1">
+                <div class="number">1500</div>
+                <div class="letter">Traffic</div>
+                <div class="icon-green"><span class="material-symbols-outlined">
+                    trending_up
+                    </span></div>
+                <div class="bar">
+                        <div class="porcent"></div>
+                </div>
+                <div class="number-porcent">40%</div>
+            </div>
+            <div class="chart2">
+                <div class="number">234</div>
+                <div class="letter">Sales</div>
+                <div class="icon-red"><span class="material-symbols-outlined">
+                    trending_down
+                    </span></div>
+                <div class="bar">
+                        <div class="porcent1"></div>
+                </div>
+                <div class="number-porcent">60%</div>
+            </div>
+            <div class="chart3">
+                <div class="number">465</div>
+                <div class="letter">Pageviews</div>
+                <div class="icon-green"><span class="material-symbols-outlined">
+                    trending_up
+                    </span></div>
+                <div class="bar">
+                        <div class="porcent2"></div>
+                </div>
+                <div class="number-porcent">30%</div>
+            </div>
+            <div class="chart4">
+                <div class="number">235</div>
+                <div class="letter">Visitors</div>
+                <div class="icon-green"><span class="material-symbols-outlined">
+                    trending_up
+                    </span></div>
+                <div class="bar">
+                        <div class="porcent3"></div>
+                </div>
+                <div class="number-porcent">80%</div>
+            </div>
+            <div class="chart5">5</div>
         </div>
-        <div class="chart1">1</div>
-        <div class="chart2">2</div>
-        <div class="chart3">3</div>
-        <div class="chart4">4</div>
-        <div class="chart5">5</div>
-        
     </div>
-    <script>
-        function toggleSidebar() {
-            const sidebar = document.querySelector('.sidebar');
-            sidebar.classList.toggle('sidebar-expanded');
-        }
-    </script>
-
 </body>
 
 </html>
