@@ -1,5 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
-);
+@font-face {
+    font-family: regular;
+    src: url(./font/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: semibold;
+    src: url(./font/OpenSans-SemiBold.ttf);
+}
+@font-face {
+    font-family: bol;
+    src: url(./font/OpenSans-Bold.ttf);
+}
 
 * {
     margin: 0;
@@ -7,7 +17,7 @@
     border: none;
     outline: none;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: regular;
 }
 
 body {
@@ -46,6 +56,7 @@ body {
 }
 
 .logo a span {
+    font-family: bol;
     overflow: hidden;
 }
 .logo a i {
@@ -73,8 +84,11 @@ body {
     margin-bottom: 1.8vw;
 }
 
-.menu li.dropdown:hover,
-.menu li.active {
+.menu li.dropdown:hover{
+    background: blue;
+}
+.menu li.active{
+    padding: 0.8vw 1.2vw;
     background: blue;
 }
 .menu li.px:hover,
@@ -92,6 +106,7 @@ body {
 }
 
 .menu a span {
+    font-family: semibold;
     overflow: hidden;
 }
 
@@ -122,11 +137,14 @@ body {
 .sub-menu {
     display: none;
     padding-left: 2.5vw;
-    background-color: #fff;
+    background-color: #fff; /* Fondo blanco */
     border-radius: 8px;
 }
+
 .sub-menu a {
+    font-family: semibold;
     font-size: 0.7vw;
+    color: #000; /* Color negro */
 }
 
 .sub-menu a:hover {
@@ -140,6 +158,7 @@ body {
 .dropdown:hover>a .arrow {
     transform: rotate(0deg);
 }
+
 
 .sidebar .main-text,
 .sidebar .table-forms-text {
@@ -159,13 +178,15 @@ body {
     margin-left: 0.5vw;
     font-size: 0.8vw;
     padding-left: 0vw; 
+    font-family: bol;
 }
 
 #click:checked ~  .sidebar .table-forms-text::before {
     content: "TABLE AND FORMS";
     margin-left: 0.5vw;
     font-size: 0.8vw;
-    padding-left: 0vw; 
+    padding-left: 0vw;
+    font-family: bol; 
 }
 
 /*======================================================*/
@@ -231,6 +252,7 @@ body {
     position: absolute;
     left: 1.3vw;
     font-size: 1vw;
+    font-family: bol;
 }
 .text01{
     position: absolute;
@@ -300,14 +322,15 @@ body {
     top: 1vw;
     position: absolute;
     font-size: 2vw;
-    font-weight: bold;
     left: 1.2vw;
+    font-family: bol;
 }
 .letter{
     position: absolute;
     left: 1.2vw;
     top: 3.8vw;
     font-size: 0.8vw;
+    font-family: semibold;
 }
 .icon-green{
     position: absolute;
@@ -359,10 +382,24 @@ body {
 }
 .number-porcent{
     position: absolute;
-    font-weight: bold;
+    font-family: bol;
     left: 1.2vw;
     top: 8vw;
     font-size: 0.8vw;
+}
+.report{
+    position: absolute;
+    left: 1.2vw;
+    top: 1.2vw;
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+.hello{
+    position: absolute;
+    left: 1.2vw;
+    top: 4vw;
+    font-size: 1.6vw;
+    font-family: bol;
 }
 
 #click:checked ~  .sidebar ~ .main--content .chart1 {
